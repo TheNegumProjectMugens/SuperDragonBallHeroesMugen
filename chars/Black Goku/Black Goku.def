@@ -1,0 +1,21 @@
+[Info]
+name ="Black"
+displayname ="Black Goku"
+versiondate =2015.05.29
+mugenversion =1.0
+author ="LegendTTA"
+pal.defaults =1
+
+[Files]
+cmd     =Black.cmd
+cns     =Black.cns
+st      =Black.cns
+stcommon =common1.cns
+sprite  =Black.sff
+anim    =Black.air
+sound   =Black.snd
+pal1    =Black.act
+st1=others.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

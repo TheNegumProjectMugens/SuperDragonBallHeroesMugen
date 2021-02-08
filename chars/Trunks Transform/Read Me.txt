@@ -1,0 +1,74 @@
+[Piccolo's Readme]
+
+Name: Piccolo
+Series: Dragonball-Z, Dragonball-GT
+Author: CLIFF-A
+Version Date: 12/08/12
+
+
+
+=======Team:
+CS-Team
+
+
+=======Site:
+CSmugen.ucoz.com
+
+
+=======Testers:
+Leo            40% VERSION
+Joop           40% VERSION
+Draox          40% VERSION
+legendivanhoe  60% VERSION
+Masterkakashi  40% VERSION
+Coded and Tested in winmugen by me.
+
+======Sprites:
+By Ichinaruke47
+---------;
+Pallete Colors = Me
+
+
+=======Piccolo Sounds:
+Ripped By Me. Not the sound Effects Tho, only The
+voice sounds.
+
+
+=======Info:
+
+Clashable; with these chars made by me
+Madara, Naruto kurama, And piccolo Himself
+
+There is an intro and ending story mode check it 
+out when you battle in mugen arcade mode or story mode
+
+The char has many special tricks, 
+and some hidden stuff.The char also has 
+a second form which You can choose during the intro. 
+The movelist is in the char itself, just 
+hold Down and C&Y&S(Enter). If you find any 
+bugs that you want me to fix, contact me 
+at my site. This is one of my best dbz Chars. 
+Theres an AI patch, so if you want The char 
+with a stronger AI just open the Ai Patch 
+Folder and read the ReadMe Note before adding 
+it in the char.
+
+
+======My Youtbe Channel:
+User: Name; Karasgold
+http://www.youtube.com/user/karasgold?feature=mhee
+
+
++++++++++++++++++++++WARNING
+DO NOT TRY TO EDIT ON THIS CHAR IF 
+YOUR NOT A CODER. JUST BY REPLACING THE 
+SPRITES OF Piccolo ALONE MIGHT END UP IN TOTAL 
+cHAOS FOR YOU, CAUSING YOU TO RE-DOWNLOADING THE 
+CHAR AGAIN. THE CODES ARE KINDA ADVANCED 
+SO HEED MY WARNING... NOOB-SAIBOTS. lol 
+
+
+------------------------------------------------------>
+^_^ ^_^ ^_^ Enjoy The Char and HAVE FUN ^_^ ^_^ ^_^ 
+------------------------------------------------------>

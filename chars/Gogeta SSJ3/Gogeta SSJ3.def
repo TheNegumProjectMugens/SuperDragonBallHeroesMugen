@@ -1,0 +1,29 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="gogeta ssj4 evolution by franciynaldo"
+displayname ="Gogeta SSJ3"
+versiondate =15,05,2009
+mugenversion =14,04,2002
+author ="FRS GAMES, SPRITES MEPHISTOPHELES, NO 100%"
+pal.defaults =1
+
+[Files]
+sprite =gogetassj4.sff
+anim =gogetassj4.air
+sound =gogetassj4.snd
+cmd =gogetassj4.cmd
+cns =gogetassj4.cns
+stcommon =common1.cns
+st =gogetassj4.cns
+pal1=SSJ3.act
+pal2=3.act
+pal3=2.act
+pal4=1.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard= ..\data\final.def

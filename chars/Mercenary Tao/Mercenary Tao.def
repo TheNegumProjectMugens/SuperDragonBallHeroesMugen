@@ -1,0 +1,24 @@
+[Info]
+name = "Mercenary Tao By Tomo"
+displayname = "Mercenary Tao"
+versiondate = 
+mugenversion = 
+author = "Tomo"
+pal.defaults = 1
+
+[Files]
+sprite = MercenaryTao.sff
+anim = MercenaryTao.air
+sound = MercenaryTao.snd
+cmd = MercenaryTao.cmd
+cns = MercenaryTao.cns
+stcommon = common1.cns
+st = MercenaryTao.cns
+st1 = attacks.cns
+st2 = specials.cns
+st3 = hypers.cns
+pal1 = MercenaryTao.act
+
+[Arcade]
+intro.storyboard = intro\intro.def
+ending.storyboard = final\final.def

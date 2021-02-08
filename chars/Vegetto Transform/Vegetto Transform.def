@@ -1,0 +1,27 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Vegeta Transform"
+displayname = "Vegito Transform"
+versiondate = 2013.06.13
+mugenversion = 1.0
+author = "LegendTTA"
+pal.defaults = 1,2
+
+[Files]
+sprite = Vegeta Transform.sff
+anim = Vegeta Transform.air
+sound = Vegeta Transform.snd
+cmd = Vegeta Transform.cmd
+cns = Vegeta Transform.cns
+stcommon = common1.cns
+st = Vegeta Transform.cns
+pal1 = Vegeta Transform.act
+pal2 = Vegeta Transform.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def

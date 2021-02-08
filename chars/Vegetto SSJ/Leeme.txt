@@ -1,0 +1,329 @@
+Super Vegetto (version Beta): Remake por Midnight Fighters Team.
+
+Autor original: Wasaby
+Edicion de Codes: EGC 
+Sprites: Dark Angel
+Sprites Adicionales: Dark Angel, Tapion, The Heartbreaker, EGC.
+FXs: Varios autores.
+
+Version del Char: Beta (87% aproximadamente.)
+Version para Mugen: "Winmugen", "M.U.G.E.N. 1.0" y "M.U.G.E.N. 1.1".
+Fecha de lanzamiento: 2 de Enero del 2014
+
+
+Lista de Movimientos:
+
+=== BASICOS ===
+
+ - Puño debil.
+ COMMAND: "x"
+ TIPO DE ESTADO: en el suelo/en el aire
+
+ - Puño fuerte.
+ COMMAND: "y"
+ TIPO DE ESTADO: en el suelo/en el aire
+
+ - Patada debil.
+ COMMAND: "a"
+ TIPO DE ESTADO: en el suelo/en el aire
+
+ - Patada fuerte.
+ COMMAND: "b"
+ TIPO DE ESTADO: en el suelo/en el aire
+
+ - Patada Launcher.
+ COMMAND: sonten "abajo", luego "a+x"
+ TIPO DE ESTADO: en el suelo
+
+ - Launcher.
+ CARACTERISTICAs: Empuja al enemigo hacia arriba para iniciar combos aereos.
+ COMMAND: "a+x"
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Si el golpe acierta y saltas, podras hacer combos aereos.
+ Puedes combinarlo con "Patada Luncher".
+
+ - Fireball.
+ CARACTERISTICAs: Ataque de energia simple.
+ COMMAND: "z"
+ POPER MINIMO REQUERIDO: 150
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ se puede continuar el ataque de presionando "z". Se puede repetir hasta 5 veces, depues el pesonaje hara una pausa.
+ 
+ - Zanzoken.
+ CARACTERISTICAs: Movimiento veloz, eficas para escapar. Si es golpeado justo cuando se inicia, Vegetto contra atacara.
+ COMMAND: "c"
+ POPER MINIMO REQUERIDO: 100
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ Puedes moverte libremente con los botenes de dirección.
+ se puede interrumpir para hacer combos.
+ ???
+ ???
+ 
+ - Throw.
+ CARACTERISTICAs: Vegetto agarra al rival con una patada al estomago.
+ COMMAND: "a+b"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ ???
+ ???
+ 
+ - Parry.
+ CARACTERISTICAs: Detiene cualquier ataque, exepto agarres.
+ COMMAND: "adelante" (justo cuando el enemigo empieza un ataque)
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ se puede contra atacar a tu gusto.
+ 
+ - Run Fwd.
+ CARACTERISTICAs: El personaje corre hacia adelante.
+ COMMAND: "F, F"
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ maten precionado "adelante" para seguir corriento
+
+ - Run Back.
+ CARACTERISTICAs: El personaje corre hacia atras.
+ COMMAND: "B, B"
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ maten precionado "atras" para seguir corriento
+
+ - Super Jump.
+ CARACTERISTICAs: Un salto más alto que el normal.
+ COMMAND: "D, U"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ se puede direccionar al igual que el salto normal.
+ 
+=== ESPECIALES ===
+
+ - Lateral Kick A.
+ CARACTERISTICAS: Patada en lateral que manda al rival para arriba.
+ COMMAND: "F, D, DF, a"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede seguir golpeando presionado "a" (solo si el golpe acierta)
+
+ - Lateral Kick B.
+ CARACTERISTICAS: Patada en lateral que manda al rival para arriba. Es mas fuerte que el "Lateral Kick A"
+ COMMAND: "F, D, DF, b"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede seguir golpeando presionado "a" (solo si el golpe acierta)
+
+ - Lateral Kick EX.
+ CARACTERISTICAS: Patadas en lateral que manda al rival para arriba acabando con una "Chinela".
+ COMMAND: "F, D, DF, a+b"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ ??? (beta...)
+
+ - Dancing Kick A.
+ CARACTERISTICAS: Patadas giratorias que avanzan hacia adelante.
+ COMMAND: "D, DB, B, a"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ No tiene. Solo se puede hacer algunos combos depues y/o antes de ejecutarlo.
+
+ - Dancing Kick B.
+ CARACTERISTICAS: Patadas giratorias que avanzan hacia adelante.
+ COMMAND: "D, DB, B, b"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ No tiene. Solo se puede hacer algunos combos depues y/o antes de ejecutarlo.
+
+ - Dancing Kick EX.
+ CARACTERISTICAS: Patadas giratorias que avanzan hacia adelante.
+ COMMAND: "D, DB, B, a+b"
+ POPER MINIMO REQUERIDO: 500
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ No tiene. Solo se puede hacer algunos combos depues y/o antes de ejecutarlo.
+
+ - Guard Kick A.
+ CARACTERISTICAS: Vegito se pone una posicion de guardia lenvantando una pierna para protegerse de ataques, despues de un periodo corto de tiempo el lanza 4 patadas. la pose defensiva es vulnerable a los ataques agachados, projectiles e hyper.
+ COMMAND: "D, DF, F, a"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede mantener en modo guarda presionado "a"
+
+ - Guard Kick B.
+ CARACTERISTICAS: Casi igual que Guard Kick A, solo que la ultima patada lleva al oponente hacia arriba (como Laucher) y es un poco más debil.
+ COMMAND: "D, DF, F, b"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede mantener en modo guarda presionado "b"
+
+ - Guard Kick EX
+ CARACTERISTICAS: Casi igual que Guard Kick A y B, solo que la carga de la pose defensiva puede durar mas y la ultima patada lleva al oponente hacia arriba y luego termina rematando con un rodillazo (depues de golpear se puede hacer combos aereos)
+ COMMAND: "D, DF, F, a+b"
+ POPER MINIMO REQUERIDO: 500
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede mantener en modo guarda presionado "a" y "b"
+
+ - Slide Attack.
+ CARACTERISTICAs: un ataque deslisante que puede seguir atacando con otros golpes al enemigo.
+ COMMAND: "D, DF,F, x" o "D, DF, F, y"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ despues del primer ataque: 
+ "x" o "y" 
+ despues del segundo ataque: 
+ "x" un doble puñetazo que al enemigo lejos.
+ "y" un cachetada que golpea al oponente contra el suelo.
+ "a" una patada que lanza al enemigo lejos, si esta cerca del borde del stage, rebota.
+ "b" una patada que lanza al enemigo hacia arriba (launcher)
+ "D, DF, F, z" una patada giratoria que termina en "Cannon Beam" (requiere 500 de poder).
+
+ - Cutting Kick
+ CARACTERISTICAS: PAtada en caida, que si golpea se ejecuta otra más fuerte.
+ COMMAND: "D, DF, F, a" o "D, DF, F, b"
+ POPER MINIMO REQUERIDO: 0
+ TIPO DE ESTADO: en el aire
+ MOVIMIENTOS OPCIONALES:
+ No tiene. Solo se puede hacer algunos combos antes de ejecutarlo.
+
+ - Cutting Kick EX
+ CARACTERISTICAS: Patada en caida, que si golpea se ejecuta otras 3 más fuertes.
+ COMMAND: "D, DF, F, a+b"
+ POPER MINIMO REQUERIDO: 500
+ TIPO DE ESTADO: en el aire
+ MOVIMIENTOS OPCIONALES:
+ ???
+
+ - Banshee Blast.
+ CARACTERISTICAS: Lanza 5 esferas en diferente direcciones. Cada esfera quita energia al enemigo.
+ COMMAND: "D, DB, B, z"
+ POPER MINIMO REQUERIDO: 500
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede mantener la carga presionando "z
+
+ - Cannon Beam.
+ CARACTERISTICAS: Dispara un beam rapido. Si el oponente esta cerca, Vegetto atacara primero con una patada giratoria (igual que el anime)
+ COMMAND: = "D, DF, F, z"
+ POPER MINIMO REQUERIDO: 500
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede hacer durantes otro ataques para hacer combos.
+
+ - Mini Galic-Ho
+ CARACTERISTICAs: Ataque aereo de energia con un escudo al principio.
+ COMMAND: "D,DF,F, z"
+ POPER MINIMO REQUERIDO: 500
+ TIPO DE ESTADO: en el aire
+ MOVIMIENTOS OPCIONALES: 
+ Se puede mantener la carga presionando "z"
+
+ - Final Kamehame-Ha.
+ CARACTERISTICAs: Poderozo ataque de energia en modo de esfera.
+ COMMAND: "D,DB,B,F, z"
+ POPER MINIMO REQUERIDO: 1000
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ se puede mantener la carga presionando "z" 
+
+=== SUPERS ===
+
+ - Big Bang Attack.
+ CARACTERISTICAs: Poderozo ataque de energia en modo de disparo. El disparo es autodireccionado hacia el rival.
+ COMMAND: "D,DF,F,D,DF,F, z"
+ POPER MINIMO REQUERIDO: 1000
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ se puede mantener la carga presionando "z" 
+
+ - Super Punch.
+ CARACTERISTICAs: Un puñetazo muy veloz que lanza al oponente muy lejos. No se puede interrunpir por movimientos nomales y supers
+ COMMAND: "D,DF,F, x" o "D,DF,F, y"
+ POPER MINIMO REQUERIDO: 1000
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES: 
+ se puede mantener la carga presionando "x" o "y". Cuando la carga se mantiene se usa poder para aumentar el daño. Si el pesonaje se queda sin poder no podra seguir manteniendo la carga .Se puede gastar hasta 1000 puntos de poder adicionales.
+
+ - Teleport Fwd.
+ CARACTERISTICAS: El personaje se teletransporta hacia adelante hasta el otro lado del escenario.  Si es golpeado justo cuando se inicia, Vegetto contra atacara (Requiere 250 de poder adicional).
+ COMMAND: "D, DF, F, z"
+ POPER MINIMO REQUERIDO: 250
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ Si se mantiene precionado "atras" Vegito se teletrasportara detras del oponente.
+ Si se mantiene precionado "arriba" Vegito se teletrasportara hacia arriba.
+ Si se mantiene precionado "abajo" Vegito se teletrasportara hacia abajo.
+
+ - Teleport Back.
+ CARACTERISTICAS: El personaje se teletransporta hacia su espalda. Si es golpeado justo cuando se inicia, Vegetto contra atacara (Requiere 250 de poder adicional) .
+ COMMAND: "D, DB, B, z"
+ POPER MINIMO REQUERIDO: 250
+ TIPO DE ESTADO: en el suelo/en el aire
+ MOVIMIENTOS OPCIONALES:
+ Si se mantiene precionado "arriba" Vegito se teletrasportara hacia arriba.
+ Si se mantiene precionado "abajo" Vegito se teletrasportara hacia abajo.
+
+=== Hypers ===
+
+ - Sword Ki.
+ CARACTERISTICAS: BETA... esperen la version final :D
+ COMMAND: ...
+ POPER MINIMO REQUERIDO: ...
+ TIPO DE ESTADO: ...
+ MOVIMIENTOS OPCIONALES:
+ ....
+
+ - Meteor Attack.
+ CARACTERISTICAS: Serie de combos muy poderozos.
+ COMMAND: "D, DB, B, F, a" o "D, DB, B, F, b"
+ POPER MINIMO REQUERIDO: 3000
+ TIPO DE ESTADO: en el suelo
+ MOVIMIENTOS OPCIONALES:
+ Se puede mantener la patada inicial precionando "a" o "b". Tiene inmunidad a todos los ataques, exepto agarres.
+
+  PD1: Los "???" son "Hidden Moves" (movimientos ocultos) que tendran que descubrir :3
+  PD2: Perdon si hay algun error en la lista.
+ ======
+
+ Lo que le falta:
+ Slide Attack EX.
+ Sword Ki.
+ Tal vez agregar una nueva Super o sino adaptar un super existente al modo aereo.
+ En lo posible Agregar más "Hidden Moves" al chars.
+ Agregar más implementaciones del MFT (tambien choques de poderes posiblemente)
+ Pulir algunas cosas que me faltaron
+ Posiblemente agregar una nueva implementacion de rechazos de poderes (Parry mejorado).
+ Intros y Win poses.
+ Mejorar y arreglar algunas cosas de la A.I.
+ Arreglar bugs.
+ Y otras cosas más que ahora no se me ocurren jeje.
+ 
+Muchas Gracias a:
+Wasaby por la base del char original.
+Dark Angel por el sorprendente sheet que hizo y demás custom.
+Tapion por feedbacks, custom sprites, FXs, ideas, y por mucho más. XD
+Emiliano 02 por codes.
+Heartbreaker por custom sprites y FXs electricos que use de su Zarbon.
+G.o.D. por el ripeo de sonidos de voces(pedido personal mio) y efectos.
+Sawady por FXs.
+Todos los autores de FXs que use en este char.
+Y de alguien o algunos que tal vez olvide. XD
+ 
+ Estare trabajando duro para terminarlo lo más pronto posible.
+ Disfruten el char y que tengan un Feliz Año!!!
+
+ Muy pronto la version final...
+
+http://mugengenerations.foroactivo.info/

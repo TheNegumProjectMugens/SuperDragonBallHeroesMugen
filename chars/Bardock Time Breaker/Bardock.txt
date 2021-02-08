@@ -1,0 +1,69 @@
+
+En el universo ficticio de Dragon Ball Bardock es el padre de Son Goku. 
+Era un guerrero del espacio (un saiyajin) de rango menor, que cumplía las órdenes de Freezer, conquistando planetas junto a su equipo.
+Tras conquistar el planeta Kanassa, un nativo superviviente atacó a Bardock y le dio el poder del preconocimiento. 
+Al cabo de poco tiempo, comenzó a ver visiones del Planeta Vegeta explotando, o de su hijo en el futuro, aunque él no sabía qué significaban.
+Pese al trabajo duro que los saiyajins hacían para él, Freezer tenía miedo de que pudieran rebelarse y todos juntos acabaran con él.
+Y si la leyenda del supersaiyajin era cierta, encontraría un rival demasiado poderoso. Bardock vio morir a sus compañeros a manos de Dodoria. 
+Cuando el apareció y vio a sus compañeros muertos le limpió a Toma la sangre de la cara y se ató el pañuelo ensangrentado alrededor de la cabeza y venció a los soldados de Freezer.
+Después Dodoria apareció y le envio una rafaga de ki con la boca que casi lo mata, de hecho, Dodoria lo dio por muerto. 
+Logró volver al Planeta Vegeta e intentó informar de sus visiones pero se rieron de él.
+Quiso parar a Freezer en su idea de destruir el planeta, primero pasando por sus líneas de defensa y cuando llegó hasta él, lanzándole una bola de energía con bastante potencia pero no fue suficiente, la bola de energía se topo con la de Freezer que sostenia con un dedo y que era enorme.
+Freezer lanzó la bola mortal que destruyó todo el planeta. Bardock murió feliz porque tuvo una visión en la que pudo ver como, en un futuro, su hijo Kakarotto(Gokuh) derrotaba a Freezer. 
+Hay que añadir que Bardock después de sufrir el poder Zenkai de su combate en el planeta Kanassa tenía un poder de 10.000 unidades(muy aceptable para un saiyajin de su categoría) y que Freezer en su 1ª forma 530.000 unidades. 
+Bardock no podía hacer nada.También cabe comentar que la fuerza de combate de Bardock era extraordinaria para ser un guerrero menor y probablemente hubiera acabado transformándose en Super Saiyajin como su hijo,si se le hubiera dado el tiempo suficiente.
+Fuente : Wikipedia
+
+------proyecto DBZ Pocket: BARDOCK-------
+
+ Version :
+ Fecha   :
+
+   Movimientos Standar
+    -----------------
+      U              - Salto 
+      UF            - Salto adelante
+      F              -  Deslizar Adelante
+      B              - Deslizar Atras
+      UB            -  Salto Atras
+      F, F          - Teleport Adelante
+      B, B          - Teleport Atras
+      A+X         - Ki charge
+      Y+B          - Vuelo
+
+     ataques basicos
+    ----------------------
+      X              - Puño debil
+      Y              - Puño medio
+      A              - Patada debil
+      B              - Patada fuerte
+      C              - Patada fuerte
+      Z              - Puño fuerte
+
+    Ataques Basicos Aereos
+    -----------------
+      X              - Puño medio Aereo
+      Y              - Puño fuerte Aereo
+      A              - Patada media Aereo
+      B              - Patada fuerte Aereo
+
+    Ataques Especiales
+    ---------------
+   ~F, DF, F, x o y   -  Ki_Shield
+   ~D, DB, B, y        -  Power Elbow Smash 
+  ~D, DB, B, x         -  Elbow Smash (Se puede realizar en modo vuelo).
+  ~D, DB, B, a         -  Flying_kick_a
+  ~D, DB, B, b         -  Flying_kick_b
+    Super Ataques 
+    ---------------
+ ~F, DF, F, y+x   -  Riot Javelin  ( requiere 1000 de poder).Se puede realizar en modo vuelo.
+ ~D, DB, B, y+x   - Sayan Spirit ( requiere 2000 de poder). se debe presionar X o Y para dar la combinacion de golpes.
+ ~D, DB, B, a+b   - Ozaru ( requiere 3000 de poder)
+
+    Agradecimientos
+    ---------------
+   Son Goharotto and Crimson : thanks for edited bardock normal mode sprites ( www.epitsudo-dojo.com)
+   Delex2002 : thanks for edited bardock ssj mode sprites .( www.freewebs.com/chaoticbattles )
+   Damian : por mejorar bastante los sprites y editar varios mas. ;)
+   Lord lee : por los sprites retocados de ssj y algunos edits.
+   Majita: thanks for Fx  and aura dinamic codec ^_^

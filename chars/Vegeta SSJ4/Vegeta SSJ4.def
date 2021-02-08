@@ -1,0 +1,39 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************     http://virtualltek.mgbr.net     *******************;
+;***************************************************************************;
+
+[Info]
+name ="VegetaSsj4"
+displayname ="Vegeta SSJ4"
+versiondate =04,14,2002
+mugenversion =04,14,2002
+author ="Midnight Fighters Team"
+pal.defaults =1,2,3,4
+
+[Files]
+sprite =VegetaSsj4.sff
+anim =VegetaSsj4.air
+sound =VegetaSsj4.snd
+cmd =VegetaSsj4.cmd
+cns =VegetaSsj4.cns
+stcommon =common1.cns
+st =basico.cns
+pal1=01.ACT
+pal2=06.ACT
+pal3=07.ACT
+pal4=02.ACT
+pal5=03.ACT
+pal6=04.ACT
+pal7=05.ACT
+pal8=08.ACT
+pal9=
+st1=Specials.cns
+st2=supers.cns
+st3=Helpers.cns
+st4=P2States.cns
+st5=VegetaSsj4_IA.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def

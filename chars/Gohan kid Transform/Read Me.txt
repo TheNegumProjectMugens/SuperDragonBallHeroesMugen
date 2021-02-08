@@ -1,0 +1,117 @@
+[Teen-Gohan's Readme]
+
+Name: Gohan
+Series: Dragonball-Z
+Author: CLIFF-A
+Version Date: 10/20/13
+Mugen Version: Mugen 1.0 & 1.1
+
+
+=======Team:
+CS-Team
+
+
+=======Site:
+CSmugen.ucoz.com
+
+
+=======Testers:
+Beta Posted on My site  30% VERSION
+Coded and Tested in mugen1.1 by me.
+
+======Sprites:
+Sprite Style Super sonic warriors
+
+Normal and SSJ((1) and 2)Sprites Ripped By: Grim
+I edit on the normal mode turning it to ssj1.
+
+SSJ3 Sprites By: RyugassJ3, with a few edits by me.
+
+
+---------;
+Pallete Colors = Me
+
+
+=======Teen-Gohans Sounds:
+Ripped By Me. 
+
+
+=======Info:
+
+Teen-Gohan has normal mode and can go ssj1, ssj2, ssj3. 
+If you would like to remove the ssj3, because you dont like the char having 
+ssj3, simply download fighters factory and open the char to remove the transformation
+command in the cmd file. In the cmd file look for Transform SSj2 To SSJ3,
+with the value state of 300000. just delete the entire command, also go
+down to the ai section and do the same, if your using the ai pack.
+
+I added a senzu bean system to gohan, when your lp is at a certain amount
+something will be flashing under the sensu bean, which can be used 3 times.
+
+Clashables; Some attacks when hit with other attack from 
+other chars will explode.
+
+There is an intro and ending story mode check it 
+out when you battle in mugen arcade mode or story mode
+
+The char has many special tricks, 
+and is very fun to play with.The char also has a 
+selection systom which You can choose during the intro. 
+The movelist is in the char itself, just 
+hold Down and C&Y&S(Enter). If you find any 
+bugs that you want me to fix, contact me 
+at my site. This is one of my best dbz Chars. 
+Theres an AI patch, so if you want The char 
+with a stronger AI, or not, just open the Ai Patch 
+Folder and read the ReadMe Notepad before adding 
+it in the char.
+
+
+======My Youtbe Channel:
+User: Name; Karasgold
+http://www.youtube.com/user/karasgold?feature=mhee
+
+
++++++++++++++++++++++WARNING
+DO NOT TRY TO EDIT ON THIS CHAR IF 
+YOUR NOT A CODER. JUST BY REPLACING THE 
+SPRITES OF Piccolo ALONE MIGHT END UP IN TOTAL 
+cHAOS FOR YOU, CAUSING YOU TO RE-DOWNLOADING THE 
+CHAR AGAIN. THE CODES ARE KINDA ADVANCED 
+SO HEED MY WARNING... NOOB-SAIBOTS. lol 
+
+...................__
+............./´¯/'...'/´¯¯`·¸
+........../'/.../..../......./¨¯\
+........('(...´...´.... ¯~/'...')
+.........\.................'...../
+..........''...\.......... _.·´
+............\..............(
+BROFIST .....................
+
+____$$$$$$$$$$$$$$$$$$$$____
+
+____$$$$$$$$$$$$$$$$$$$____
+
+____$$$$_______$$$$$_____
+
+____$$$_______$$$$______
+
+____$$______$$$$______
+
+____$___$$$$$$$____
+
+_________$$$$$$$____$_
+
+________$$$$_______$$__
+
+______$$$$________$$$___
+
+_____$$$$________$$$$____
+
+____$$$$$$$$$$$$$$$$$_____
+
+___$$$$$$$$$$$$$$$$$$______
+------------------------------------------------------>
+^_^ ^_^ ^_^ Enjoy The Char and HAVE FUN ^_^ ^_^ ^_^ 
+------------------------------------------------------>

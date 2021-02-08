@@ -1,0 +1,2699 @@
+
+[Statedef 200]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 200
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10200
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30200
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,10
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 0
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 5,-29
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 5,-29
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 210]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 210
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10210
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30210
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,10
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 0
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 5,-29
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 5,-29
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 220]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 230
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10230
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30230
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,20
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 0
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 5,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 5,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 230]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 220
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10220
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30220
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = time = 3
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 5,10
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4,4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 1
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 7,-7
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 7,-7
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 7
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 240]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 240
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10240
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30240
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,10
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 0
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 11,-41
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 11,-41
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 250]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 250
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10250
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30250
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 5,10
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 0
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 9,-50
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 7,-50
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 260]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 260
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10260
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30260
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 3
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 25,5
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,20
+sparkno = -1
+sparkxy = -10,-40
+hitsound = -1,-1
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 1
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S110,0
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S106,0
+volume = 255
+channel = -1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 305
+ID = 305
+pos = 52,52
+postype = p2
+facing = -1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = 4
+
+[State 200, Explod]
+type = Explod
+trigger1 = animelem = 3
+anim = 302
+ID = 302
+pos = 25,-35
+postype = p1
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+sprpriority = 7
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 306
+ID = 306
+pos = 0,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 0,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+trigger2 = animelem = 2
+x = 5
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S107,0
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 4
+value = S109,0
+volume = 55
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 270]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 400
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10400
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30400
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 5
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 5,0
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -2,-9
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-9
+fall = 1
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 11,-51
+postype = p1
+facing = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 11,-51
+postype = p1
+facing = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 280]
+type    = A
+movetype= A
+physics = A
+juggle  = 4
+poweradd= -300
+ctrl = 0
+anim = 600
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10600
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30600
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 1
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 1
+value = S1234,5
+volume = 255
+channel = -1
+
+[State 0, PosAdd]
+type = PosAdd
+trigger1 = Time = 0
+x = P2DIST x + 3
+y = P2DIST y - 50
+;ignorehitpause =
+;persistent =
+
+[State 0, Explod]
+type = Explod
+TRIGGER1 = P2stateno = 5100
+anim = 89547
+ID= 89547
+pos = -5,0
+postype = P2
+scale = .6,1
+sprpriority = 1
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+TRIGGER1 = P2stateno = 5100
+anim = 76337
+ID= 76337
+pos = -5,0
+postype = P2
+scale = .6,1
+sprpriority = 1
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+TRIGGER1 = P2stateno = 5100
+anim = 6001
+ID= 6001
+pos = 0,-5
+postype = P2
+scale = 1.2,1.2
+sprpriority = 5
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+TRIGGER1 = P2stateno = 5100
+anim = 6001
+ID= 6001
+pos = 0,-5
+postype = P2
+scale = 1.2,1
+sprpriority = 1
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+TRIGGER1 = P2stateno = 5100
+anim = 6008
+ID = 6008
+pos = 0,0
+postype = p2
+removetime = -2
+sprpriority = 0
+scale = .4,.4
+ownpal = 2
+PERSISTENT = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+TRIGGER1 = P2stateno = 5100
+value = S1234,1
+volume = 255
+channel = -1
+PERSISTENT = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 630, 2]
+type = HitDef
+trigger1 = Time = 0
+attr = A, NA
+damage = 10,20
+guardflag = HA
+priority = 3
+pausetime = 0,10
+sparkno = -1
+sparkxy = -10,-5
+hitsound   = S54321,0+(RANDOM%5)
+guardsound = S52,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -1,15
+airguard.velocity = -1.9,.15
+air.type = High
+air.velocity = -1,15
+fall = 1
+fall.recover = 1
+fall.damage = 20
+envshake.time = 5
+envshake.freq = 15
+envshake.ampl = -5
+envshake.phase = 15
+fall.envshake.time = 15
+fall.envshake.freq = 50
+fall.envshake.ampl = -15
+fall.envshake.phase = 15
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 15,-3
+postype = p1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 15,-3
+postype = p1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+triggerall = p2stateno = [5000,5200]
+trigger1 = time > 0
+x = 0
+y = 0
+
+[State 600, 3]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 50
+
+[Statedef 400]
+type = C
+movetype = A
+physics = C
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 400
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10400
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30400
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 2
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 5
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 20,1
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,10
+sparkno = -1
+sparkxy = -10,-40
+hitsound = S54321,0+(RANDOM%5)
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -2,-4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 0+(RANDOM%2)
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 5,-51
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 5,-51
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 11
+ctrl = 1
+
+[Statedef 410]
+type = C
+movetype = A
+physics = C
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 410
+poweradd = 20
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10410
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30410
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 3
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 5
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 25,5
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 0,20
+sparkno = -1
+sparkxy = -10,-40
+hitsound = -1,-1
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 1
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S110,0
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S106,0
+volume = 255
+channel = -1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 305
+ID = 305
+pos = 52,52
+postype = p2
+facing = -1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = 4
+
+[State 200, Explod]
+type = Explod
+trigger1 = animelem = 3
+anim = 302
+ID = 302
+pos = 25,-20
+postype = p1
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+sprpriority = 7
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 306
+ID = 306
+pos = 0,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 0,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+trigger2 = animelem = 2
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S107,0
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 4
+value = S109,0
+volume = 55
+channel = -1
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 200, ChangeState]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 11
+ctrl = 1
+
+[StateDef 500]
+type = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 500
+poweradd = -200
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 2500
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 4500
+
+[State 1500, Turn]
+type = Turn
+Trigger1 = P2Dist X < -15
+
+[State 0, PalFX1]
+type = PalFX
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+time = 5
+add = 0,0,0
+mul = 256,256,256
+sinadd = 256,256,256,5
+invertall = 0
+color  = 256
+ignorehitpause = 1
+persistent = 5
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+time = 15
+length = 5
+palcolor = 256
+palbright = 156,25,56
+palcontrast = 256,256,156
+paladd = 26,15,26
+palmul = .65,.65,.75
+timegap  = 1
+framegap= 2
+trans = add
+ignorehitpause = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6111
+ID = 6111
+pos = 13,-30
+postype = p1
+removetime = -2
+scale = .5,.5
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6111
+ID = 6111
+pos = -13,-30
+postype = p1
+removetime = -2
+scale = .5,.5
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6000
+ID = 6000
+pos = 0,18
+postype = p1
+removetime = -2
+scale = 1,.9
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+triggerall= pos y > -20
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 9
+ID= 9
+pos = -3,11
+postype = P1
+scale = 0.48,0.57
+sprpriority = 5
+ontop = 1
+ownpal = 1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 2
+trigger2 = animelem = 5
+value = S1234,5
+volume = 255
+channel = -1
+
+[State 0, PosAdd]
+type = PosAdd
+triggerall = time >= 4
+Trigger1 = command = "holdfwd"
+x = 555
+persistent = 0
+
+[State 0, PosAdd]
+type = PosAdd
+triggerall = time >= 4
+Trigger1 = command = "holdback"
+x = -555
+persistent = 0
+
+[State 0, PosAdd]
+type = PosAdd
+triggerall = time >= 4
+Trigger1 = command = "holdup"
+y = -150
+persistent = 0
+
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 2
+helpertype = player
+name = "Dummy helper"
+ID = 501
+stateno = 501
+pos = 0,0
+postype = p1    ;p2,front,back,left,right
+facing = 1
+keyctrl = 0
+ownpal = 0
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 500, end]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[StateDef 501]
+type = S
+movetype= I
+physics = S
+ctrl = 0
+anim = 8030
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 2500
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 4500
+
+[State 0, PosAdd]
+type = PosAdd
+trigger1 = ANIMELEM = 1
+x = P2DIST X - 50
+y = 0
+
+[State 0, NotHitBy]
+type = NotHitBy
+trigger1 = 1
+value = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
+;value2 = S,NA
+time = 1
+;ignorehitpause =
+;persistent =
+
+[State 501, end]
+type = destroyself
+trigger1 = Time = 40
+
+[StateDef 502]
+type = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 5000
+poweradd = 0
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 15000
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 35000
+
+[State 0, NotHitBy]
+type = NotHitBy
+trigger1 = 1
+value = SCA,NA,SA,HA,NP,SP,HP,NT,ST,HT
+;value2 = S,NA
+time = 1
+
+[State 0, VarRandom]
+type = VarRandom
+trigger1 = time = 0
+v = 40
+Range = 1
+
+[State 504, end]
+type = ChangeState
+triggerall = var(40) = 0
+trigger1 = Time = 1
+value = 503
+ctrl = 1
+
+[State 504, end]
+type = ChangeState
+triggerall = var(40) = 1
+trigger1 = Time = 1
+value = 504
+ctrl = 1
+
+[StateDef 503]
+type = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 500
+poweradd = -200
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 2500
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 4500
+
+[State 1500, Turn]
+type = Turn
+Trigger1 = P2Dist X < -15
+
+[State 0, PalFX1]
+type = PalFX
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+time = 5
+add = 0,0,0
+mul = 256,256,256
+sinadd = 256,256,256,5
+invertall = 0
+color  = 256
+ignorehitpause = 1
+persistent = 5
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+time = 15
+length = 5
+palcolor = 256
+palbright = 156,25,56
+palcontrast = 256,256,156
+paladd = 26,15,26
+palmul = .65,.65,.75
+timegap  = 1
+framegap= 2
+trans = add
+ignorehitpause = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 2
+trigger2 = animelem = 5
+anim = 6000
+ID = 6000
+pos = 0,18
+postype = p1
+removetime = -2
+scale = 1,.9
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6111
+ID = 6111
+pos = 13,-30
+postype = p1
+removetime = -2
+scale = .5,.5
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6111
+ID = 6111
+pos = -13,-30
+postype = p1
+removetime = -2
+scale = .5,.5
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+triggerall= pos y > -20
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 9
+ID= 9
+pos = -3,11
+postype = P1
+scale = 0.48,0.57
+sprpriority = 5
+ontop = 1
+ownpal = 1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 2
+trigger2 = animelem = 5
+value = S1234,5
+volume = 255
+channel = -1
+
+[State 0, PosAdd]
+type = PosAdd
+trigger1 = Time = 5
+x = P2DIST x + 30
+y = P2DIST y - 30
+;ignorehitpause =
+;persistent =
+
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 2
+helpertype = player
+name = "Dummy helper"
+ID = 501
+stateno = 501
+pos = 0,0
+postype = p1    ;p2,front,back,left,right
+facing = 1
+keyctrl = 0
+ownpal = 0
+
+[State 500, end]
+type = ChangeState
+trigger1 = Time = 6
+value = 505
+ctrl = 1
+
+[StateDef 504]
+type = S
+movetype= A
+physics = S
+juggle  = 1
+velset = 0,0
+ctrl = 0
+anim = 500
+poweradd = -200
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 2500
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 4500
+
+[State 1500, Turn]
+type = Turn
+Trigger1 = P2Dist X < -15
+
+[State 0, PalFX1]
+type = PalFX
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+time = 5
+add = 0,0,0
+mul = 256,256,256
+sinadd = 256,256,256,5
+invertall = 0
+color  = 256
+ignorehitpause = 1
+persistent = 5
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+time = 15
+length = 5
+palcolor = 256
+palbright = 156,25,56
+palcontrast = 256,256,156
+paladd = 26,15,26
+palmul = .65,.65,.75
+timegap  = 1
+framegap= 2
+trans = add
+ignorehitpause = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 2
+trigger2 = animelem = 5
+anim = 6000
+ID = 6000
+pos = 0,18
+postype = p1
+removetime = -2
+scale = 1,.9
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6111
+ID = 6111
+pos = 13,-30
+postype = p1
+removetime = -2
+scale = .5,.5
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 6111
+ID = 6111
+pos = -13,-30
+postype = p1
+removetime = -2
+scale = .5,.5
+sprpriority = 3
+shadow = 0,0,0
+ownpal = 1
+
+[State 0, Explod]
+type = Explod
+triggerall= pos y > -20
+trigger1 = animelem = 1
+trigger2 = animelem = 5
+anim = 9
+ID= 9
+pos = -3,11
+postype = P1
+scale = 0.48,0.57
+sprpriority = 5
+ontop = 1
+ownpal = 1
+
+[State 0, PlaySnd]
+type = PlaySnd
+trigger1 = animelem = 2
+trigger2 = animelem = 5
+value = S1234,5
+volume = 255
+channel = -1
+
+[State 0, PosAdd]
+type = PosAdd
+Trigger1 = animelem = 4
+x = 555
+
+[State 0, Helper]
+type = Helper
+trigger1 = animelem = 2
+helpertype = player
+name = "Dummy helper"
+ID = 501
+stateno = 501
+pos = 0,0
+postype = p1    ;p2,front,back,left,right
+facing = 1
+keyctrl = 0
+ownpal = 0
+
+[State 700, 3]
+type=ChangeState
+trigger1 = AnimTime=0
+trigger1 = Pos Y < 0
+value=1500
+
+[State 500, end]
+type = ChangeState
+trigger1 = AnimTime = 0
+value = 0
+ctrl = 1
+
+[Statedef 505]
+type = S
+movetype = A
+physics = S
+juggle = 1
+velset = 0,0
+ctrl = 0
+anim = 260
+poweradd = 0
+sprpriority = 2
+
+[State 1500, Turn]
+type = Turn
+triggerall = time < 3
+Trigger1 = P2Dist X < -15
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10260
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30260
+
+[State 0, AfterImage]
+type = AfterImage
+trigger1 = animelem = 3
+time = 3
+length = 20
+palcolor = 256
+add = -104,-104,7
+mul = 256,256,256
+sinadd = 56,56,0,10
+invertall = 1
+timegap = 1
+framegap = 3
+trans = add              ;Set p1's sprite layering priority to 2 (in front)
+
+[State 0, Explod]
+type = Explod
+trigger1 = Time = 0
+anim = 8
+ID = 8
+pos = -8,8
+facing = -1
+postype = p1  ;p2,front,back,left,right
+bindtime = 1
+removetime = -2
+scale = .4,.4
+sprpriority = 01
+ontop = 1
+ownpal = 1
+
+[State 200, HitDef]
+type = HitDef
+trigger1 = Time = 0
+attr = S,NA
+damage = 25,5
+animtype = Light
+guardflag = MA
+hitflag = MAF
+priority = 3, Hit
+pausetime = 4,20
+sparkno = -1
+sparkxy = -10,-40
+hitsound = -1,-1
+guardsound = S100,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -4
+airguard.velocity = -2.9,-.8
+air.type = High
+air.velocity = -2.4,-3
+fall = 1
+fall.recover = 1
+envshake.time = 5
+envshake.freq = 9
+envshake.ampl = -4
+envshake.phase = 9
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S110,0
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = movehit = 1
+value = S106,0
+volume = 255
+channel = -1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 305
+ID = 305
+pos = 52,52
+postype = p2
+facing = -1
+bindtime = 1
+removetime = -2
+scale = 1,1
+sprpriority = 4
+
+[State 200, Explod]
+type = Explod
+trigger1 = animelem = 3
+anim = 302
+ID = 302
+pos = 25,-35
+postype = p1
+facing = 1
+bindtime = -1
+removetime = -2
+scale = .5,.5
+sprpriority = 7
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 306
+ID = 306
+pos = 0,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 0,-31
+postype = p2
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+trigger1 = animelem = 1
+trigger2 = animelem = 2
+x = 3
+y = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S107,0
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 4
+value = S109,0
+volume = 55
+channel = -1
+
+[State 0, VarRandom]
+type = VarRandom
+trigger1 = time = 0
+v = 40
+Range = 1
+
+[State 600, 3]
+type = ChangeState
+triggerall = var(40) = 0
+trigger1 = AnimTime = 0
+value = 1500
+
+[State 600, 3]
+type = ChangeState
+triggerall = var(40) = 1
+trigger1 = AnimTime = 0
+value = 50
+
+[Statedef 600]
+type    = A
+movetype= A
+physics = A
+juggle  = 4
+poweradd= 20
+ctrl = 0
+anim = 600
+sprpriority = 2
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 1
+trigger1 = time = 0
+value = 10600
+
+[State 0, changeanim]
+type = changeanim
+triggerall = Var(15) = 2
+trigger1 = time = 0
+value = 30600
+
+[State 0, Explod]
+type = Explod
+triggerall = var(15) = 2
+TRIGGER1 = P2stateno = 5100
+anim = 89547
+ID= 89547
+pos = -5,0
+postype = P2
+scale = .6,1
+sprpriority = 1
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+triggerall = var(15) = 2
+TRIGGER1 = P2stateno = 5100
+anim = 76337
+ID= 76337
+pos = -5,0
+postype = P2
+scale = .6,1
+sprpriority = 1
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+triggerall = var(15) = 2
+TRIGGER1 = P2stateno = 5100
+anim = 6001
+ID= 6001
+pos = 0,-5
+postype = P2
+scale = 1.2,1.2
+sprpriority = 5
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+triggerall = var(15) = 2
+TRIGGER1 = P2stateno = 5100
+anim = 6001
+ID= 6001
+pos = 0,-5
+postype = P2
+scale = 1.2,1
+sprpriority = 1
+ownpal = 1
+PERSISTENT = 0
+
+[State 0, Explod]
+type = Explod
+triggerall = var(15) = 2
+TRIGGER1 = P2stateno = 5100
+anim = 6008
+ID = 6008
+pos = 0,0
+postype = p2
+removetime = -2
+sprpriority = 0
+scale = .4,.4
+ownpal = 2
+PERSISTENT = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+triggerall = var(15) = 2
+TRIGGER1 = P2stateno = 5100
+value = S1234,1
+volume = 255
+channel = -1
+PERSISTENT = 0
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S210,0+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 200, PlaySnd]
+type = PlaySnd
+trigger1 = Animelem = 1
+value = S44444,5+(RANDOM%5)
+volume = 255
+channel = -1
+
+[State 630, 2]
+type = HitDef
+triggerall = var(15) = 2
+trigger1 = Time = 0
+attr = A, NA
+damage = 10,20
+guardflag = HA
+priority = 3
+pausetime = 0,0
+sparkno = -1
+sparkxy = -10,-5
+hitsound   = S54321,0+(RANDOM%5)
+guardsound = S52,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = 0,15
+airguard.velocity = -2.9,.15
+air.type = High
+air.velocity = -5,15
+fall = 1
+fall.recover = 1
+fall.damage = 20
+envshake.time = 5
+envshake.freq = 15
+envshake.ampl = -5
+envshake.phase = 15
+fall.envshake.time = 15
+fall.envshake.freq = 50
+fall.envshake.ampl = -15
+fall.envshake.phase = 15
+
+[State 630, 2]
+type = HitDef
+triggerall = var(15) = 0 || var(15) = 1
+trigger1 = Time = 0
+attr = A, NA
+damage = 15,5
+guardflag = HA
+priority = 3
+pausetime = 0,0
+sparkno = -1
+sparkxy = -10,-5
+hitsound   = S54321,0+(RANDOM%5)
+guardsound = S52,0
+ground.type = High
+ground.slidetime = 1
+ground.hittime = 12
+ground.velocity = -3,7
+airguard.velocity = -2.9,.15
+air.type = High
+air.velocity = -3,7
+fall = 1
+fall.recover = 1
+fall.damage = 5
+envshake.time = 5
+envshake.freq = 15
+envshake.ampl = -5
+envshake.phase = 15
+fall.envshake.time = 15
+fall.envshake.freq = 50
+fall.envshake.ampl = -15
+fall.envshake.phase = 15
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 301
+ID = 301
+pos = 15,-3
+postype = p1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .7,.7
+sprpriority = 5
+ownpal = 1
+
+[State 200, Explod]
+type = Explod
+trigger1 = Movehit = 1
+anim = 307+(RANDOM%3)
+ID = 307+(RANDOM%3)
+pos = 15,-3
+postype = p1
+facing = 1
+bindtime = 1
+removetime = -2
+scale = .3,.3
+sprpriority = 5
+ownpal = 1
+
+[State 0, VelSet]
+type = VelSet
+triggerall = p2stateno = [5000,5200]
+trigger1 = time > 0
+x = 0
+y = 0
+
+[State 0, VarRandom]
+type = VarRandom
+trigger1 = time = 0
+v = 40
+Range = 1
+
+[State 600, 3]
+type = ChangeState
+triggerall = var(40) = 0
+trigger1 = AnimTime = 0
+value = 1500
+
+[State 600, 3]
+type = ChangeState
+triggerall = var(40) = 1
+trigger1 = AnimTime = 0
+value = 50
+

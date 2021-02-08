@@ -1,0 +1,28 @@
+; Definition file for Kung Fu Man
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name="Puipui"
+displayname="Puipui"
+versiondate=04,14,2002
+mugenversion=04,14,2002
+author=""
+pal.defaults=1,2
+
+; Files for the player
+[Files]
+cmd=Puipui.cmd
+cns=Puipui.cns
+st=Puipui.cns
+stcommon=common1.cns
+sprite=Puipui.sff
+anim=Puipui.air
+sound=Puipui.snd
+pal1=Puipui.act
+pal2=Puipui2.act
+
+
+[Arcade]
+intro.storyboard=
+ending.storyboard= ..\data\final.def

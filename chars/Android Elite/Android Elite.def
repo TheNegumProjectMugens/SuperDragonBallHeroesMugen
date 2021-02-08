@@ -1,0 +1,38 @@
+; Definition file for 18 by Chrono_Strife and Neocide
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "18"                       ;Name of character
+displayname = "Android Elite"      ;Name of character to display
+versiondate =           ;Version date of character
+mugenversion =          ;Version of M.U.G.E.N character works on
+author = "Chrono_Strife"          ;Character author name
+pal.defaults = 1,2,3,4,5,6        ;Default palettes in order of preference
+
+; Files for the player
+[Files]
+cmd      = coding/18CMD.cmd       ;Command set
+cns      = coding/18CNS.cns       ;Constants
+st       = coding/18CNS.cns       ;States
+st2      = coding/helperCNS.cns   ;Helper States
+stcommon = coding/commonCNS.cns   ;Common states
+sprite   = graphical/18SFF.sff    ;Sprite
+anim     = coding/18AIR.air       ;Animation
+sound    = audio/18SND_ENG.snd   ;Sound
+pal1     = graphical/Elite.act    ;Standard Android 18
+pal2     = graphical/18.act    	  ;Yuuna Miyama(Maburaho)
+pal3     = graphical/Bulma_N.act  ;Namek Saga Bulma
+pal4     = graphical/18b.act      ;Android 18 Alternate Colors
+pal5     = graphical/Tifa.act     ;Tifa Lockheart(Final Fantasy VII)
+pal6     = graphical/Yuuna.act    ;Android 18 in black
+pal7     = graphical/Rin.act      ;Rin Kamishiro(Maburaho)
+pal8     = graphical/Aerith.act   ;Aerith Gainsborough(Final Fantasy VII)
+pal9     = graphical/Bulma_A.act  ;Android Saga Bulma
+pal10    = graphical/18c.act
+pal11    = graphical/18up1.act
+pal12    = graphical/18up2.act
+
+[Arcade]
+intro.storyboard=
+ending.storyboard =..\data\final.def

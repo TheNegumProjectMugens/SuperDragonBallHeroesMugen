@@ -1,0 +1,41 @@
+This archive contains a folder called "audio" and a file called "16_CStrife.def" 
+
+
+How to install this voice pack (using the "16_CStrife" character as an example): 
+To add the voice pack you will need to drag and drop "audio" and "16_CStrife.def" into your "mugen/chars/16_CStrife" directory.
+
+
+
+Trouble Shooting:
+1. If the character has No Sound or mugen errors out with an audio/.SND related message. 
+-open the problem characters folder in your "mugen/chars" directory.
+-Open the "<character_name>.def" file.
+-Look for the line that starts with "sound", for example:
+sound    = audio/16_EnSND.snd                     ;Sound
+
+-"audio/16_EnSND.snd" is the path to the sounds and English voices for the Android 16 character, make sure that a file called "16_EnSND.snd" exists in the audio folder.
+-If 16_EnSND.snd doesn't exist in the location specified it will need to be downloaded and placed in that audio directory, OR the file path listed in the .def file needs to be changed to point to an existing SND name. (see below)
+
+
+2. If the character is speaking the wrong language.
+In the case that both voice packs were downloaded, but you want the character to speak Japanese instead of English(or the other way around)...
+-Open the problem characters folder in your "mugen/chars" directory.
+-Open the "<character_name>.def" file.
+-Look for the line that starts with "sound", for example:
+sound    = audio/16_EnSND.snd                     ;Sound
+
+
+-"audio/16_EnSND.snd" is the path to the sounds and English voices for the Android 16 character.
+-Simply change the path to "audio/16_JpSND.snd" and this will point to the Japanese voice pack.
+
+
+
+If the "audio/16_EnSND.snd" and/or "audio/16_JpSND.snd" files don't exist, visit "http://chronostrife.herobo.com" with any luck the site and download links to the characters will still work. 
+Otherwise Google "Android 16 by Benhazard and Chrono_Strife" and hope a useful link pops up.
+
+
+
+
+
+
+I tried to make this as easy to understand as possible, I hope it helps some novice MUGEN users!

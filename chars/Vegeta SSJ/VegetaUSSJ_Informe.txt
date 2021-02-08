@@ -1,0 +1,172 @@
+Super Vegeta  Versión 1.0 By Team OS y todos los que juegan mugen|
+----------------------------------------------------------------
+Programación:Emiliano 01
+Sprites:Sasuke
+Sprites Customs: Tapion, Augusto.Cesar, Juanga
+Sounds: Rips of MajinVegetto and Majita
+Fxs: Classic OpenSource, Sawady, Cervantes, POTS.
+_______________________________________
+	Comentarios y Derechos del char|
+---------------------------------------
+Bueno vamos a hacerla corta, el char es en su totalidad Open Source, cada píxel o letra de código puede ser 
+usada libremente sin necesidad de pedir permiso a nadie, tratando de que en lo posible la creación resultante
+de esta sea Open Source (Obviamente una mención al Team OS será más que agradecida).
+__________________________________
+________________________________________________________________
+		LISTA DE MOVIMIENTOS				|
+----------------------------------------------------------------
+Level 3
+Destello Final(ki -3000)
+(debe hacerse en el aire)
+D,DB,B,F,x+y
+
+Ataque de la Gran Explosión(ki -3000)
+(debe hacerse en el aire)
+D,DF,F,B,a+b
+=============================================================================================================================
+Level 2
+Resplandor Final (ki -2000)
+D,DB,B,F,x+y
+
+Impacto Increíble (ki -2000)
+D,DF,F,B,a+b
+=============================================================================================================================
+Level 1
+Renzoku Energy Dan (ki -1000)
+(Mantenga pulsado c al principio para aumentar daño, luego púlselo repetidamente para continuar lanzando)
+D,DB,B,D,DB,B,c
+
+Onda de Radiación Galick (ki -1000)
+(Puede hacerse en el aire, ofrece protección ante fireballs enemigos)
+D,DB,B,D,DB,B,a
+
+BigBang Attack (ki -1000)
+(Mantenga pulsado c para más hits)
+D,DB,B,F,b
+-----------------------------------------------------------------------------------------------------------------------------
+Especiales de ki
+
+Fireball (ki -200)
+(siga pulsando x para lanzar más)
+D,DB,B,x
+
+Jishin-Ha (ki -350)
+(Pulse la misma secuencia para lanzar otro rápidamente)
+D,DB,B,y
+
+Ráfaga Atómica (ki -500)
+(mantenga pulsado z para más hits)
+D,DB,B,z
+
+AirFireball (ki -100)
+(En el aire, siga pulsando x para lanzar más)
+D,DB,B,x
+
+Energy Wave Volley(ki -125)
+(En el aire, siga pulsando y para lanzar más)
+D,DB,B,y
+
+Bombardeo de fotones(ki -400)
+(En el aire, mantenga pulsada z para más hits)
+D,DB,B,z
+
+Kienzan (ki -250)
+(siga pulsando a para más hits)
+D,DB,B,a
+
+Granada Infernal(ki -100)
+(Siga pulsando b para lanzar más)
+D,DB,B,b
+
+Ejecución Infernal(ki -100)
+(Provoca que las granadas anteriores sigan al oponente)
+D,DB,B,D,DB,B,b
+
+Shyougeki Ha(ki -400)
+(mantenga pulsada c para aumentar la distancia de la aparición del géiser)
+D,DB,B,c
+-----------------------------------------------------------------------------------------------------------------------------
+Especiales de melé
+
+Pique en velocidad (siga marcando la secuencia para más hits)
+D,DF,F,x
+
+Codazo Inverso(siga marcando la secuencia para más hits)
+D,DF,F,y
+
+Burn Knuckle(siga marcando la secuencia para más un reversal)
+D,DF,F,z
+
+ShoryuKen (dependiendo del botón elegido, provoca más hits y mayor altitud)
+D,F,DF,x
+D,F,DF,y
+D,F,DF,z
+
+Knee/Sonic Smash (dependiendo del botón elegido, provoca más daño y menor altitud)
+D,F,DF,a
+D,F,DF,b
+D,F,DF,c
+
+Raigeki-Shuu (en el aire, dependiendo del botón elegido, provoca más daño y mayor ángulo de golpe)
+F,DF,D,a
+F,DF,D,b
+F,DF,D,c
+;============================================================================================================================
+Misceláneos
+a+x(ki -100)
+Zanzoken (úsese para combinar golpes o escapar)
+
+Cargar ki
+b+y
+
+Zero-Counter(ki -500)
+b+y(cubriéndose)
+
+Transformación en USSJ(ki -1000)
+c+z
+
+Destransformación en SSJ
+c+z
+
+Parry
+F (antes de ser impactado por algún golpe)
+
+Launcher
+x/y/z+x/y/z
+
+Burla
+S
+;============================================================================================================================
+Sistema de Juego
+Las secuencias D,DF,F,x/y son combinables con casi cualquier tipo de ataque
+En modo USSJ, se posee una súper armadura, a costa de menor velocidad
+La gran mayoría de las técnicas de ki son combinables con las de melé y viceversa
+Use el launcher o Puño fuerte agachado para iniciar un combo aéreo
+Pruebe combinaciones de ataques básicos en todo momento
+La gran mayoría de especiales de melé son combinables entre sí y con los ataque básicos
+;============================================================================================================================
+MODO USSJ
+Inhibidor de daño deshabilitado
+Menor velocidad
+Shyougeki Ha autodirigido
+Se aumenta en 2 el máximo de Granadas Infernales
+Kienzan y Ráfaga Atómica al máximo
+JishinHa con más hits
+Supers requieren menos ki
+Cualquier golpe recibido no afecta los moves
+Tiempo efectivo de Parry aumentado
+________________________________________________________________
+			AGRADECIMIENTOS	DE MUGEN		|
+----------------------------------------------------------------
+1)En primer lugar, a Sasuke por el fenomenal sheet open que hizo
+2)A todo el Team OS (Wenchu, Nahue y ViejaDelAgua por los consejos y betatesters) y en especial a Tapion, 
+Augusto.Cesar y Juanga por el aguante con los sprites
+3)POTS, Sawady y Cervantes por FX'S
+4)Sawady otra vez por resolver problemas de programación
+5)Chrono_Strife por sus buenas ideas y ciertos FX´S
+6)Crazy_Logic por consejos sobre gameplay(¿?)
+7)MV por los rips
+-------------------------------------------------------------------------------------------------------
+Cualquier duda, sugerencia,idea,problema,reporte de errores,puteadas,desagravios,injurias y demás yerbas, pueden enviarme 
+en http://mugengenerations.foroactivo.info/forum.htm así como al team OS.
+Sitio web del OS: www.teamdbzos.ucoz.com

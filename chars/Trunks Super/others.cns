@@ -1,0 +1,64 @@
+[StateDef -3]
+
+[state -3]
+type = removeexplod
+trigger1 = stateno != 6025
+id = 6025
+
+[state -3]
+type = stopsnd
+trigger1 = stateno != 6025
+channel = 2
+
+[State 0]
+type = DefenceMulSet
+triggerall = var(5) = 0
+triggerall = var(7) = 0
+trigger1 = 1
+value = 1
+
+[State 0]
+type = DefenceMulSet
+triggerall = var(8) = 0
+triggerall = var(7) = 1
+trigger1 = 1
+value = 0.9
+
+[State 0]
+type = DefenceMulSet
+triggerall = var(8) = 1
+triggerall = var(7) = 1
+trigger1 = 1
+value = 0.8
+
+[State 0]
+type = Helper
+triggerall = var(8) = 1
+triggerall = numhelper(7011) = 0
+triggerall = life > 0
+triggerall = stateno != 5110
+trigger1 = 1
+helpertype = normal
+name = "Effect"
+ID = 7011
+stateno = 7011
+pos = 0,0
+postype = p1
+ownpal = 1
+supermovetime = 60000
+
+[State 0]
+type = Helper
+triggerall = var(8) = 1
+triggerall = numhelper(7012) = 0
+triggerall = life > 0
+triggerall = stateno != 5110
+trigger1 = 1
+helpertype = normal
+name = "Effect"
+ID = 7012
+stateno = 7012
+pos = 0,0
+postype = p1
+ownpal = 1
+supermovetime = 60000

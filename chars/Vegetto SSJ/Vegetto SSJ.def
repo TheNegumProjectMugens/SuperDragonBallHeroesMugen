@@ -1,0 +1,35 @@
+
+[Info]
+name = "MFT Super Vegetto (Beta)"
+displayname = "Vegito SSJ"
+versiondate = 2/1/2014; (2.0)
+mugenversion = 04,14,2002; 1.0; 1.1; (1.2 XD)
+author = "Wasaby & Midnight Fighters Team"
+;Code: EGC
+;Sprites: Dark Angel
+;Thanks You: Wasaby, Dark Angel, Tapion, Emiliano 02, The Heartbreaker, G.o.D, Sawady.
+pal.defaults = 1,2,3,4,5
+
+[Files]
+sprite = VegettoSFF.sff
+anim = VegettoAIR.air
+sound = VegettoSND.snd
+cmd = VegettoCMD.cmd
+cns = VegettoCNS.cns
+stcommon = common1.cns
+st = VegettoCNS.cns
+st1 = basic.cns
+st2 = specials.cns
+st3 = supers.cns
+st4 = hypers.cns
+st5 = helpers.cns
+pal1 = Vegetto.act
+pal2 = Vegetto2.act
+pal3 = Vegetto.act
+pal4 = Vegetto.act
+pal5 = Vegetto.act
+pal6 = Vegetto.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def

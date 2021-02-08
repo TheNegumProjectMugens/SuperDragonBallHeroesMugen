@@ -1,0 +1,7 @@
+Name: Goku SSJ4 v1.0
+Mugen version: 1.0
+
+Goku sprite sheet by Roken
+
+sprite and sound effects:
+Roken, Benhazard, T.O.P.S. , Gangsti, MFT

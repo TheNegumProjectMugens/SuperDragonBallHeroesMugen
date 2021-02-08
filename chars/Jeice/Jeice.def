@@ -1,0 +1,31 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Jeice"
+displayname = "Jeice"
+versiondate = 06/12/2007
+mugenversion = 11,01,2001
+author = "SaWWeN ; mephistopheles edits"
+pal.defaults = 1,2,3,4,5
+
+[Files]
+sprite = jeice.sff
+anim = Jeice.air
+sound = jeice.snd
+cmd = Jeice.cmd
+cns = Jeice.cns
+stcommon = common1.cns
+st = jeice.cns
+pal1 = 01.ACT
+pal2 = 02.ACT
+pal3 = 03.ACT
+pal4 = 04.ACT
+;pal5 = 05.ACT
+;pal6 = 06.ACT
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def

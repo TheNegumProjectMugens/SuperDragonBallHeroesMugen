@@ -1,0 +1,299 @@
+--------------------------------------------------------------------------------
+                    LÉEME EN ESPAÑOL (Argentino :P)
+--------------------------------------------------------------------------------
+
+                    Kid Goku GT por EGC Version 0.4 Beta.
+
+ Fuente usada para el texto : Lucida Console
+
+ Lista de Títulos :
+
+ - Información del Autor
+ - Información del Personaje
+ - Programas Utilizados
+ - Lo que tiene
+ - Lo que falta
+ - Lista de movimientos
+ - Recomendaciones
+ - Comentarios
+ - Agradecimientos
+ - Glosario de palabras
+
+ Antes que nada intenten leer todo. ¡POR FAVOR!
+
+ Perdonen las faltas de ortografía y los errores de esctritura.
+
+Mira el Glosario de palabras de abajo si no se entiende alguna palabra o siglas.
+
+--------------------------------------------------------------------------------
+ Información del Autor :
+--------------------------------------------------------------------------------
+
+ Nombre : EGC
+ Lugar : Argentina/Bs. As./Castelar Sur/Partido de Ituzaingo/Barrio Santa Rosa
+ E-Mail : eg_casco@hotmail.com
+ Wed : Aun no disponible
+
+--------------------------------------------------------------------------------
+ Información del Personaje :
+--------------------------------------------------------------------------------
+
+ Nombre : Kid Goku GT
+ Versión : 0.4 Beta
+ Versión de MUGEN : 1.0
+ Fecha del comienzo de creación :  Aproximadamente Setiembre 2011
+ Fecha de Lanzamiento : 27 de Abril del 2012
+
+ +--------------+----------------+-----------+
+ |   Categoría  |     Autor      |  Uso (*)  |
+ +--------------+----------------+-----------+
+ | Sprites      | EGC            | Prohibido |
+ | FX           | Variados y EGC | Libre     |
+ | Voces        | EGC            | Libre     |
+ | SFX          | Variados y EGC | Libre     |
+ | Programación | EGC            | Libre     |
+ +--------------+----------------+-----------+
+
+(*) El uso prohibido de los sprites es porque aun no he terminado los sprites en
+su totalidad y algunos están incompletos, feos y/o mal color de la paleta, los
+sprites serán CLOSED SOURCE hasta nuevo aviso. Si quieres usar algún sprite
+mándame un E-Mail pidiéndome permiso, especifica el o los sprites que necesites.
+No uses los sprites sin mi permiso, POR FAVOR, los puedes usar siempre y cuando
+no sean publicado en alguien sitio wed (solo para pc). Si alguien roba estos
+sprites tendrá problemas.
+
+--------------------------------------------------------------------------------
+ Programas Utilizados :
+--------------------------------------------------------------------------------
+
+ - Fighter Factory
+ - Fighter Factory Ultimate 2.5
+ - Fighter Factory 3 Beta
+ - Paint
+ - Notepad
+ - Particle Illusion
+ - Gimp 2.6
+ - Audacity 1.3 Beta (Unicode)
+ - IrfanView
+ - aTube Catcher
+ - Winrar
+ - Zsnes
+ - Fusion (Sega Genesis)
+
+--------------------------------------------------------------------------------
+ Lo que tiene :
+--------------------------------------------------------------------------------
+
+ - 1 Super
+ - 4 Especiales
+ - Algunos Combos
+ - Zanzoken
+ - Fireball
+ - Modo vuelo
+ - 3 Presentaciones
+ - 4 Poses de victoria
+ - Algunos Bugs :P
+ - Y otras cosas más
+
+--------------------------------------------------------------------------------
+ Lo que Falta :
+--------------------------------------------------------------------------------
+
+ - Hacer uno o más Hypers
+ - Hacer y mejorar más Supers
+ - Hacer y mejorar más Especiales
+ - Hacer y mejorar más Combos
+ - Hacer y mejorar más Sprites
+ - Hacer y mejorar más FX
+ - Hacer y mejorar más Voces y otros idiomas
+ - Hacer y mejorar más SFX
+ - Arreglar los daños de los ataques
+ - Si puedo, hacer compatible el uso del poder, en compañeros con menos poder
+ - Hacer la AI compatible con el nivel que establece mugen (ahora esta en 9)
+ - Puede que... mas presentaciones y poses de victoria
+ - Transformaciones (la versión mayor a la 1.0 será con transformación SSJ1).
+ - Arreglar en lo posible algunos Bugs
+ - Mejorar este LEEME :P (hacerlo en formato de pagina wed)
+ - Hacer más idiomas de este LEEME
+ - Y otras cosas más
+
+--------------------------------------------------------------------------------
+ Lista de movimientos :
+--------------------------------------------------------------------------------
+
+ Descripciones :
+
+ U   : Arriba
+ D   : Abajo
+ F   : Adelante
+ B   : Atrás
+ ALL : Cualquiera de estos botones : A, B, C, X, Y, Z
+
+ Algunos movimientos estan beta.
+
+ Movimientos Normales :
+
+ +-------------+----------------+----------------+-----------------------------+
+ |   Nombre    |    Comando     |  Uso de poder  |         Comentarios         |
+ +-------------+----------------+----------------+-----------------------------+
+ | Puño 1      + x              +       0        | Se puede hacer combo (ALL)  |
+ +-------------+----------------+----------------+-----------------------------+
+ | Puño 2      + y              +       0        | Se puede hacer combo (ALL)  |
+ +-------------+----------------+----------------+-----------------------------+
+ | Patada 1    + a              +       0        | Se puede hacer combo (ALL)  |
+ +-------------+----------------+----------------+-----------------------------+
+ | Patada 2    + b              +       0        | Se puede hacer combo (ALL)  |
+ +-------------+----------------+----------------+-----------------------------+
+ | Fireball    + z              +     100 (*)    | Puede seguir disparando (Z) |
+ +-------------+----------------+----------------+-----------------------------+
+ | Zanzoken    + c              +     100        | Deja confundido al rival    |
+ +-------------+----------------+----------------+-----------------------------+
+ | Carga de Ki + b+y            +       0        | Recarga el poder rápidamente
+ +-------------+----------------+----------------+-----------------------------+
+ | Modo Vuelo  + a+b            +       0        | Puede volar libremente      |
+ +-------------+----------------+----------------+-----------------------------+
+
+ Movimientos Especiales :
+
+ +-------------+----------------+----------------+-----------------------------+
+ |   Nombre    |    Comando     |  Uso de poder  |         Comentarios         |
+ +-------------+----------------+----------------+-----------------------------+
+ | Taioken     + D, DF, F, a    +     500        | Deja paralizado al rival    |
+ +-------------+----------------+----------------+-----------------------------+
+ | Firelazer   + D, DF, F, z    +     250 (*)    | Se puede hacer otro (Z)     |
+ +-------------+----------------+----------------+-----------------------------+
+ | Super Ball  + D, DB, B, z    +     250 (*)    | Es recargable (Z)           |
+ +-------------+----------------+----------------+-----------------------------+
+ | Run Punch   + D, DF, F, x    +       0        | Puede hacer mas golpes (X)  |
+ +-------------+----------------+----------------+-----------------------------+
+ | Crazy Kicks + D, DF, F, a    +       0        | Puede hacer mas golpes (A)  |
+ +-------------+----------------+----------------+-----------------------------+
+ | Bird Kick   + D, DF, F, b    +       0        | Puede hacer mas golpes (B)  |
+ +-------------+----------------+----------------+-----------------------------+
+
+ Movimientos Supers :
+
+ +-------------+----------------+----------------+-----------------------------+
+ |   Nombre    |    Comando     |  Uso de poder  |         Comentarios         |               |
+ +-------------+----------------+----------------+-----------------------------+
+ | Kamehame-Ha | D, DB, B, F, z |     500 (*)    | Puede hacer cubas (U y D)   |
+ +-------------+----------------+----------------+-----------------------------+
+
+ Movimientos Hypers :
+
+ +-------------+----------------+----------------+-----------------------------+
+ |   Nombre    |    Comando     |  Uso de poder  |         comentarios         |
+ +-------------+----------------+----------------+-----------------------------+
+ |     ...     |      ...       |       ...      |             ...             |
+ +-------------+----------------+----------------+-----------------------------+
+
+ En los comentarios hay algunas letras entre paréntesis, esto son los botones
+que se tiene que presionar.
+
+(*) El poder es el mínimo para hacer el movimiento, luego de esto, el poder ira
+disminuyendo, si queda muy poco poder el personaje quedara cansado.
+
+ El tiempo de cansancio aumenta cuando el char esta haciendo el movimiento. El
+personaje seguirá cansado hasta que se cumpla hasta que se cumpla el tiempo
+establecido, esto no será cancelado por golpes del rival. Disminuye este tiempo
+presionando cualquier botón.
+
+ En una versión futura, si es posible, hacer que el uso de poder sea en
+Porcentaje o partes del poder máximo, por ejemplo el Kamehame-Ha usara la 6°
+parte del poder máximo, equivale a 500 si el poder máximo es 3000.
+
+--------------------------------------------------------------------------------
+ Recomendaciones:
+--------------------------------------------------------------------------------
+
+ En el archivo "EGC-kid_Goku_GT.cns" se puede cambiar el número de estas lineas:
+
+ +---------------------------------------+
+ | Life = 3000                           |
+ +---------------------------------------+
+ | Vida maxima de este personaje.        |
+ | El normal es 1000                     |
+ +---------------------------------------+
+ | Attack = 125	                         |
+ +---------------------------------------+
+ | Fuerza de ataque de este personaje.   |
+ | El normal es 100                      |
+ +---------------------------------------+
+ | Defense = 125                         |
+ +---------------------------------------+
+ | Defensa de este personaje.            |
+ | El normal es 100                      |
+ +---------------------------------------+
+ | Power = 3000                          |
+ +---------------------------------------+
+ | Poder maximo de este personaje.       |
+ | El normal es 3000                     |
+ | No es recomendable cambiar este valor.|
+ | Si pones un número mas bajo puede que |
+ | no se pueda ejecutar algunos ataques. |
+ | Estoy trabajándo para que se pueda    |
+ | cambiar al gusto que quieran.         |
+ +---------------------------------------+
+
+ La caracterisa pricipalmente de este personaje es de hacer combos, asi que 
+presioana los botones de ataques para interrumpir un ataque y pasar a otro.
+
+--------------------------------------------------------------------------------
+ Comentarios :
+--------------------------------------------------------------------------------
+
+ A mis hermanos no le interesan mucho MUGEN por ese necesito ayudantes para
+terminar más rápido este char y hacer futuros chars. Si alguien se ofrece por
+favor mándeme un E-Mail para saber sobre ustedes. Si les parece bien podríamos
+hacer un nuevo TEAM MUGEN.
+
+ Este char tiene los sprites de base de estos juegos y DBZ SB2, DBZ SB3, UB22,
+Sheets del Team OS, la serie Dragon Ball GT y muchos sin base hechos por mí
+mismo.
+
+--------------------------------------------------------------------------------
+ Agradecimientos (sin importancia de orden) :
+--------------------------------------------------------------------------------
+
+ - A Dios, por crearme :P
+ - A la Presidenta Cristina Fernández de Kirchner, por entregarme mi Netbook
+ - Al Team OS, por sus Sheets, FXs, SFXs, CODEs
+ - A la gran comunidad MUGENGENERATION, por haberme permitido publicar mi Char.
+ - A Tapion y Vieja_del_Agua, por los consejos y alientos que me dan.
+ - A los creadores de los programas que use.
+ - A Elecbyte, por MUGEN
+ - A mi hermano Claudio, por haberme dicho una especial que todavía no hice.
+ - A Ustedes que leyeron este documento (eso espero :P).
+ - A Akira Toriyama por todas las series de Dragon Ball.
+ - Y a mí, por haber creado este char de Goku GT, ya que no hay muchos de estos.
+
+--------------------------------------------------------------------------------
+ Glosario de palabras (para principiantes en mugen generalmente) :
+ Algunas de las palabras o siglas están en ingles, usa un traductor si quieres
+--------------------------------------------------------------------------------
+
+ - EGC : Mis iniciales. Eliezer Gabriel Casco.
+ - CHAR : Personaje de MUGEN.
+ - STAGE : Pantalla de MUGEN donde se enfrentan los luchadores.
+ - SPRITE: Cada imagen del físico del personaje.
+ - SHEET : Igual que SPRITE, solamente que, son todas las imágenes.
+ - FX : Cada imagen de efectos especiales.
+ - SFX : Cada sonido de efectos especiales.
+ - CODE : Pedazo o completamente la programación del personaje.
+ - OPEN SOURSE : Se puede usar libremente sin pedir permiso al autor.
+ - CLOSED SOURCE : No se puede usar libremente, pida permiso al autor.
+ - TEAM : Equipo en ingles.
+ - BETA : Incompleto. Que no esta a su totalidad.
+ - BUG : Falla y/o error.
+ - AI : Inteligencia artificial.
+ - SSJ(n°) : Super Saiyajin mas el numero de fase.
+
+ Si falta alguna palabra o sigla que no saben, pregunten a mi E-Mail.
+
+--------------------------------------------------------------------------------
+
+ Si encuentras bugs, avísame a mi correo, para que el char quede mejor.
+
+ Disfrútenlo...
+
+

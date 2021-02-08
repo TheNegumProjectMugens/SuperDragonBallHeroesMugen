@@ -1,0 +1,26 @@
+[Info]
+name = "LordSlug"
+displayname = "Lord Slug"
+versiondate = 
+mugenversion = 
+author = "Tomo"
+pal.defaults = 1,2
+
+[Files]
+sprite = LordSlug.sff
+anim = LordSlug.air
+sound = LordSlug.snd
+cmd = LordSlug.cmd
+cns = LordSlug.cns
+stcommon = common1.cns
+st = LordSlug.cns
+st2 = attack.cns
+st3 = special.cns
+st4 = hyper.cns
+st9 = AI.cns
+pal1 = LordSlug.act
+pal2 = LordSlug.act
+
+[Arcade]
+intro.storyboard = intro\intro.def
+ending.storyboard = final\final.def

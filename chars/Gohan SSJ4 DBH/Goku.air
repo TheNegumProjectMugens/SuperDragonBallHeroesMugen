@@ -1,0 +1,1036 @@
+; KFM's animation data
+; see docs/air.txt for more information
+;---------------------------------------------------------------------------
+; Standing Animation
+[Begin Action 0]
+Clsn2Default: 1
+  Clsn2[0] = -15, -85, 14, 3
+0,1, 0,0, 30
+0,2, 0,0, 5
+0,3, 0,0, 30
+0,2, 0,0, 5
+
+
+; Turning
+[Begin Action 5]
+Clsn2Default: 1
+  Clsn2[0] = -21, -74, 21, 4
+0,4, 0,0, 2,H
+0,4, 0,0, 2
+
+
+; Crouch Turning
+[Begin Action 6]
+Clsn2Default: 1
+  Clsn2[0] = -18, -61, 18, 3
+0,5, 0,0, 2,H
+0,5, 0,0, 2
+
+
+; Stand to crouch
+[Begin Action 10]
+Clsn2: 1
+  Clsn2[0] = -20, -73, 20, 5
+0,4, 0,0, 4
+
+
+; Crouching animation
+[Begin Action 11]
+Clsn2: 1
+  Clsn2[0] = -18, -61, 17, 3
+0,5, 0,0, 1
+
+
+; Crouch to Stand
+[Begin Action 12]
+Clsn2: 1
+  Clsn2[0] = -19, -73, 20, 5
+0,4, 0,0, 4
+
+
+; Walking Forward
+[Begin Action 20]
+Clsn2Default: 1
+  Clsn2[0] = -17, -80, 27, 3
+0,6, 0,0, 1
+
+
+; Walking Back
+[Begin Action 21]
+Clsn2Default: 1
+  Clsn2[0] = -23, -77, 14, 3
+0,7, 0,0, 6
+
+
+; Jump start frame
+[Begin Action 40]
+Clsn2: 1
+  Clsn2[0] = -18, -73, 19, 5
+0,4, 0,0, 4
+
+
+; Starting Jumping up
+[Begin Action 41]
+Clsn2: 1
+  Clsn2[0] = -15, -89, 15, 3
+0,12, 0,0, 30
+Clsn2: 1
+  Clsn2[0] = -19, -64, 18, -17
+Loopstart
+0,15, 0,-40, 1
+
+
+; Starting Jumping forwards
+[Begin Action 42]
+Clsn2: 1
+  Clsn2[0] = -18, -80, 26, 3
+0,13, 0,0, 30
+Clsn2: 1
+  Clsn2[0] = -20, -64, 19, -17
+Loopstart
+0,15, 0,-40, 1
+
+
+; Starting Jumping backwards
+[Begin Action 43]
+Clsn2: 1
+  Clsn2[0] = -23, -76, 16, 3
+0,14, 0,0, 30
+Clsn2: 1
+  Clsn2[0] = -20, -64, 20, -17
+Loopstart
+0,15, 0,-40, 1
+
+; Peak and coming down from Jumping up
+;[Begin Action 44]
+; Peak and coming down from Jumping forwards
+;[Begin Action 45]
+; Peak and coming down from Jumping backwards
+;[Begin Action 46]
+; Jump land animation
+[Begin Action 47]
+Clsn2: 1
+  Clsn2[0] = -17, -73, 17, 6
+0,4, 0,0, 4
+
+
+; Run Forward
+[Begin Action 100]
+Clsn2: 1
+  Clsn2[0] = -18, -79, 27, 3
+0,6, 0,0, 1
+
+
+; Hop backwards
+[Begin Action 105]
+Clsn2: 1
+  Clsn2[0] = -22, -75, 18, 3
+0,14, 0,0, 1
+
+;---------------------------
+; Lose
+[Begin Action 170]
+0,4, 0,0, 5
+Loopstart
+0,5, 0,0, 1
+
+;---------------------------
+; Win
+[Begin Action 180]
+0,61, 0,0, 5
+0,62, 0,0, 15
+Loopstart
+0,62, 0,0, 1
+
+
+; Intro
+[Begin Action 190]
+-1,-1, 0,0, 30
+10,18, 0,0, 3,, A
+10,17, 0,0, 4,, A
+10,16, 0,0, 4,, A
+
+;--------------------
+; GUARDSTART (stand)
+[Begin Action 120]
+Clsn2: 1
+  Clsn2[0] = -20, -84, 19, 3
+0,16, 0,0, 1
+
+
+; GUARDSTART (crouch)
+[Begin Action 121]
+Clsn2: 1
+  Clsn2[0] = -21, -62, 17, 3
+0,17, 0,0, 1
+
+
+; GUARDSTART (air)
+[Begin Action 122]
+Clsn2: 1
+  Clsn2[0] = -18, -86, 18, 3
+0,18, 0,0, 1
+
+
+; GUARD (stand)
+[Begin Action 130]
+Clsn2: 1
+  Clsn2[0] = -18, -84, 16, 3
+0,16, 0,0, 1
+
+
+; GUARD (crouch)
+[Begin Action 131]
+Clsn2: 1
+  Clsn2[0] = -21, -61, 15, 3
+0,17, 0,0, 1
+
+
+; GUARD (air)
+[Begin Action 132]
+Clsn2: 1
+  Clsn2[0] = -20, -86, 19, 4
+0,18, 0,0, 1
+
+
+; GUARDEND (stand)
+[Begin Action 140]
+Clsn2: 1
+  Clsn2[0] = -18, -85, 17, 3
+0,16, 0,0, 1
+
+
+; GUARDEND (crouch)
+[Begin Action 141]
+Clsn2: 1
+  Clsn2[0] = -21, -62, 16, 3
+0,17, 0,0, 1
+
+
+; GUARDEND (air)
+[Begin Action 142]
+Clsn2: 1
+  Clsn2[0] = -20, -86, 20, 4
+0,18, 0,0, 1
+
+
+; Hit back while guarding (stand)
+[Begin Action 150]
+Clsn2: 1
+  Clsn2[0] = -17, -84, 17, 3
+0,16, 0,0, 1
+
+
+; Hit back while guarding (crouch)
+[Begin Action 151]
+Clsn2: 1
+  Clsn2[0] = -21, -62, 16, 3
+0,17, 0,0, 1
+
+
+; Hit back while guarding (air)
+[Begin Action 152]
+Clsn2: 1
+  Clsn2[0] = -19, -86, 18, 3
+0,18, 0,0, 1
+
+;---------------------------
+; Stand/Air Hit high (light)
+[Begin Action 5000]
+Clsn2: 1
+  Clsn2[0] = -16, -83, 16, 4
+0,19, 0,0, 1
+
+
+;Stand/Air Hit high (medium)
+[Begin Action 5001]
+Clsn2: 1
+  Clsn2[0] = -22, -83, 17, 3
+0,19, 0,0, 1
+
+
+;Stand/Air Hit high (hard)
+[Begin Action 5002]
+Clsn2: 1
+  Clsn2[0] = -22, -83, 15, 2
+0,19, 0,0, 1
+
+;---------------------------
+;Stand Recover high (light)
+[Begin Action 5005]
+Clsn2: 1
+  Clsn2[0] = -17, -83, 16, 3
+0,19, 0,0, 1
+
+
+;Stand Recover high (medium)
+[Begin Action 5006]
+Clsn2: 1
+  Clsn2[0] = -18, -83, 18, 3
+0,19, 0,0, 1
+
+
+;Stand Recover high (hard)
+[Begin Action 5007]
+Clsn2: 1
+  Clsn2[0] = -18, -83, 17, 3
+0,19, 0,0, 1
+
+;---------------------------
+;Stand/Air Hit low (light)
+[Begin Action 5010]
+Clsn2: 1
+  Clsn2[0] = -19, -83, 18, 2
+0,19, 0,0, 1
+
+
+;Stand/Air Hit low (medium)
+[Begin Action 5011]
+Clsn2: 1
+  Clsn2[0] = -20, -83, 18, 3
+0,19, 0,0, 1
+
+
+;Stand/Air Hit low (hard)
+[Begin Action 5012]
+Clsn2: 1
+  Clsn2[0] = -18, -83, 17, 3
+0,19, 0,0, 1
+
+;---------------------------
+;Stand Recover low (light)
+[Begin Action 5015]
+Clsn2: 1
+  Clsn2[0] = -20, -83, 18, 3
+0,19, 0,0, 1
+
+
+;Stand Recover low (medium)
+[Begin Action 5016]
+Clsn2: 1
+  Clsn2[0] = -18, -83, 17, 3
+0,19, 0,0, 1
+
+
+;Stand Recover low (hard)
+[Begin Action 5017]
+Clsn2: 1
+  Clsn2[0] = -18, -83, 17, 3
+0,19, 0,0, 1
+
+;---------------------------
+;Crouch Hit (light)
+[Begin Action 5020]
+Clsn2: 1
+  Clsn2[0] = -21, -63, 18, 3
+0,20, 0,0, 1
+
+
+;Crouch Hit (medium)
+[Begin Action 5021]
+Clsn2: 1
+  Clsn2[0] = -17, -63, 18, 3
+0,20, 0,0, 1
+
+
+;Crouch Hit (hard)
+[Begin Action 5022]
+Clsn2: 1
+  Clsn2[0] = -21, -64, 15, 2
+0,20, 0,0, 1
+
+;---------------------------
+;Crouch Recover (light)
+[Begin Action 5025]
+Clsn2: 1
+  Clsn2[0] = -19, -65, 18, 3
+0,20, 0,0, 1
+
+
+;Crouch Recover (medium)
+[Begin Action 5026]
+Clsn2: 1
+  Clsn2[0] = -18, -64, 16, 3
+0,20, 0,0, 1
+
+
+;Crouch Recover (hard)
+[Begin Action 5027]
+Clsn2: 1
+  Clsn2[0] = -18, -64, 15, 3
+0,20, 0,0, 1
+
+;---------------------------
+;Stand/Air Hit back
+[Begin Action 5030]
+Clsn2: 1
+  Clsn2[0] = -31, -67, 31, 3
+0,21, 0,0, 1
+
+
+;Stand/Air Hit transition
+[Begin Action 5035]
+Clsn2: 1
+  Clsn2[0] = -31, -67, 33, 2
+0,21, 0,0, 1
+
+;---------------------------
+;Air Recover
+[Begin Action 5040]
+Clsn2: 1
+  Clsn2[0] = -19, -89, 16, 3
+0,12, 0,0, 10
+
+;---------------------------
+;Air Fall (going up)
+[Begin Action 5050]
+Clsn2: 1
+  Clsn2[0] = -31, -66, 39, 3
+0,21, 0,0, 1
+
+;---------------------------
+;Air Fall (up-type, going up)
+[Begin Action 5051]
+Clsn2: 1
+  Clsn2[0] = -34, -67, 38, 3
+0,21, 0,0, 1
+
+;---------------------------
+;Air Fall (up-type, coming down)
+[Begin Action 5060]
+Clsn2: 1
+  Clsn2[0] = -38, -55, 37, 3
+0,22, 0,0, 1
+
+;---------------------------
+;Tripped
+[Begin Action 5070]
+Clsn2: 1
+  Clsn2[0] = -17, -83, 17, 3
+0,19, 0,0, 1
+
+;---------------------------
+;LieDown Hit (stay down)
+[Begin Action 5080]
+Clsn2: 1
+  Clsn2[0] = -38, -56, 36, 3
+0,22, 0,0, 5
+
+;---------------------------
+;LieDown Hit (hit up into air)
+[Begin Action 5090]
+Clsn2: 1
+  Clsn2[0] = -39, -47, 38, 3
+0,22, 0,0, 1
+
+;---------------------------
+; Hit ground from fall
+[Begin Action 5100]
+Clsn2: 1
+  Clsn2[0] = -39, -52, 37, 3
+0,22, 0,0, 5
+
+
+; Bounce into air
+[Begin Action 5160]
+Clsn2: 1
+  Clsn2[0] = -40, -47, 38, 3
+0,22, 0,0, 1
+
+
+; Hit ground from bounce
+[Begin Action 5170]
+Clsn2: 1
+  Clsn2[0] = -40, -50, 38, 3
+0,22, 0,0, 5
+
+;---------------------------
+; Hit ground from fall (up-type)
+[Begin Action 5101]
+Clsn2: 1
+  Clsn2[0] = -41, -51, 38, 3
+0,22, 0,0, 5
+
+;---------------------------
+; LieDown
+[Begin Action 5110]
+Clsn2: 1
+  Clsn2[0] = -40, -17, 46, 13
+0,23, 0,0, 1
+
+
+; Get up from LieDown
+[Begin Action 5120]
+Clsn2Default: 1
+  Clsn2[0] = -18, -73, 18, 4
+0,5, 0,0, 5
+0,4, 0,0, 5
+
+
+;LieDead animation
+[Begin Action 5150]
+0,23, 0,0, 1
+
+;---------------------------
+; Fall-recovery near ground
+[Begin Action 5200]
+Clsn2: 1
+  Clsn2[0] = -19, -88, 19, 3
+0,12, 0,0, 10
+
+
+;Fall-recovery in mid-air
+[Begin Action 5210]
+Clsn2: 1
+  Clsn2[0] = -19, -88, 20, 3
+0,12, 0,0, 10
+
+;---------------------------
+; Dizzy
+[Begin Action 5300]
+Clsn2: 1
+  Clsn2[0] = -18, -83, 18, 3
+0,19, 0,0, 1
+
+
+;0
+[Begin Action 6000]
+10,1, 0,0, 2,, A
+10,2, 0,0, 2,, A
+10,3, 0,0, 2,, A
+10,4, 0,0, 2,, A
+10,5, 0,0, 2,, A
+
+
+;0
+[Begin Action 6001]
+10,6, 0,0, 2,, A
+10,7, 0,0, 2,, A
+10,8, 0,0, 2,, A
+10,9, 0,0, 2,, A
+10,10, 0,0, 2,, A
+
+
+;0
+[Begin Action 6002]
+10,11, 0,0, 2,, A
+10,12, 0,0, 2,, A
+10,13, 0,0, 2,, A
+10,14, 0,0, 2,, A
+10,15, 0,0, 2,, A
+
+
+;
+[Begin Action 6005]
+Clsn2Default: 1
+  Clsn2[0] = -17, -78, 30, 3
+0,13, 0,0, 10
+
+
+;0
+[Begin Action 6006]
+Clsn2Default: 1
+  Clsn2[0] = -26, -76, 16, 3
+0,14, 0,0, 10
+
+
+;0
+[Begin Action 6007]
+10,16, 0,0, 4,, A
+10,17, 0,0, 3,, A
+10,18, 0,0, 3,, A
+-1,-1, 0,0, 10,, A
+10,18, 0,0, 3,, A
+10,17, 0,0, 3,, A
+10,16, 0,0, 4,, A
+
+
+;0
+[Begin Action 6010]
+Clsn2Default: 1
+  Clsn2[0] = -19, -86, 20, 3
+0,24, 0,0, 20
+Loopstart
+0,25, 0,0, 2
+0,26, 0,0, 2
+0,27, 0,0, 2
+0,26, 0,0, 2
+
+
+;0
+[Begin Action 6011]
+10,19, 0,0, 2,, A
+10,20, 0,0, 2,, A
+10,21, 0,0, 2,, A
+
+
+;0
+[Begin Action 6012]
+10,22, 0,0, 2,, A
+10,23, 0,0, 2,, A
+10,24, 0,0, 2,, A
+10,25, 0,0, 2,, A
+10,26, 0,0, 2,, A
+10,27, 0,0, 2,, A
+10,28, 0,0, 2,, A
+10,29, 0,0, 2,, A
+10,30, 0,0, 2,, A
+10,31, 0,0, 2,, A
+
+
+;0
+[Begin Action 6014]
+Clsn2Default: 1
+  Clsn2[0] = -21, -86, 21, 2
+0,28, 0,0, 10
+
+
+;
+[Begin Action 6015]
+10,32, 0,0, 1,, A
+10,33, 0,0, 1,, A
+10,34, 0,0, 1,, A
+10,35, 0,0, 1,, A
+10,36, 0,0, 1,, A
+10,37, 0,0, 1,, A
+10,38, 0,0, 1,, A
+10,39, 0,0, 1,, A
+10,40, 0,0, 1,, A
+10,41, 0,0, 1,, A
+
+
+;
+[Begin Action 6016]
+10,42, 0,0, 2,, A
+10,43, 0,0, 2,, A
+10,44, 0,0, 2,, A
+10,45, 0,0, 2,, A
+10,46, 0,0, 2,, A
+
+
+;
+[Begin Action 6017]
+10,47, 0,0, 2,, A
+10,48, 0,0, 2,, A
+10,49, 0,0, 1,, A
+
+
+;
+[Begin Action 6020]
+Clsn2Default: 1
+  Clsn2[0] = -22, -80, 23, 3
+0,29, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 15, -70, 48, -54
+0,30, 0,0, 10
+0,30, 0,0, 10
+
+
+;0
+[Begin Action 6025]
+Clsn2Default: 1
+  Clsn2[0] = -14, -82, 15, 2
+0,31, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 3, -71, 53, -37
+0,32, 0,0, 10
+0,32, 0,0, 10
+
+
+;
+[Begin Action 6030]
+Clsn2Default: 1
+  Clsn2[0] = -21, -71, 21, 4
+0,33, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 13, -67, 42, -50
+0,34, 0,0, 5
+0,35, 0,0, 15
+
+
+;0
+[Begin Action 6040]
+Clsn2Default: 1
+  Clsn2[0] = -25, -82, 25, 2
+0,36, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 18, -68, 50, -50
+0,37, 0,0, 10
+0,37, 0,0, 10
+
+
+;0
+[Begin Action 6045]
+Clsn2Default: 1
+  Clsn2[0] = -23, -68, 23, 2
+0,38, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 14, -61, 36, -43
+0,39, 0,0, 10
+0,39, 0,0, 10
+
+
+;
+[Begin Action 6050]
+Clsn2Default: 1
+  Clsn2[0] = -15, -79, 20, 3
+0,40, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 13, -87, 34, -48
+0,41, 0,0, 10
+0,41, 0,0, 10
+
+
+;
+[Begin Action 6060]
+Clsn2Default: 1
+  Clsn2[0] = -18, -86, 18, 3
+0,42, 0,0, 10
+0,43, 0,0, 15
+
+
+;
+[Begin Action 6065]
+Clsn2Default: 1
+  Clsn2[0] = -17, -86, 18, 3
+0,44, 0,0, 10
+0,45, 0,0, 15
+
+
+;
+[Begin Action 6066]
+Clsn1Default: 1
+  Clsn1[0] = -7, -7, 7, 7
+10,50, 0,0, 2,, A
+10,51, 0,0, 2,, A
+10,52, 0,0, 2,, A
+10,53, 0,0, 2,, A
+10,54, 0,0, 2,, A
+
+
+;0
+[Begin Action 6067]
+10,55, 0,0, 2,, A
+10,56, 0,0, 2,, A
+10,57, 0,0, 2,, A
+10,58, 0,0, 2,, A
+10,59, 0,0, 2,, A
+
+
+;
+[Begin Action 6068]
+10,60, 0,0, 2,, A
+10,61, 0,0, 2,, A
+10,62, 0,0, 2,, A
+10,63, 0,0, 2,, A
+10,64, 0,0, 2,, A
+
+
+;
+[Begin Action 6070]
+Clsn2Default: 1
+  Clsn2[0] = -15, -82, 16, 3
+0,46, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = -3, -52, 47, -32
+0,47, 0,0, 10
+0,47, 0,0, 10
+
+
+;0
+[Begin Action 6075]
+Clsn2Default: 1
+  Clsn2[0] = -13, -87, 14, 2
+0,48, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 12, -74, 34, -34
+0,49, 0,0, 10
+0,49, 0,0, 10
+
+
+;
+[Begin Action 6080]
+10,16, 0,0, 2,, A
+10,17, 0,0, 2,, A
+10,18, 0,0, 1,, A
+10,18, 0,0, 1,, A
+10,17, 0,0, 2,, A
+10,16, 0,0, 2,, A
+Clsn2Default: 1
+  Clsn2[0] = -11, -82, 19, -23
+0,50, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = -6, -45, 15, 3
+0,51, 0,0, 5
+0,51, 0,0, 5
+
+
+;
+[Begin Action 6090]
+Clsn2Default: 1
+  Clsn2[0] = -13, -81, 12, 3
+0,31, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 5, -70, 54, -37
+0,32, 0,0, 10
+0,32, 0,0, 10
+
+
+;0
+[Begin Action 6095]
+Clsn2Default: 1
+  Clsn2[0] = -12, -78, 13, 3
+0,52, 0,0, 3
+0,53, 0,0, 2
+Clsn1: 1
+  Clsn1[0] = 2, -37, 53, -19
+0,54, 0,0, 10
+0,54, 0,0, 10
+
+
+;
+[Begin Action 6100]
+Clsn2Default: 1
+  Clsn2[0] = -24, -68, 25, 3
+0,55, 0,0, 10
+0,56, 0,0, 15
+
+
+;
+[Begin Action 6101]
+10,70, 0,0, 1,, A
+
+
+;0
+[Begin Action 6102]
+Clsn1Default: 1
+  Clsn1[0] = 0, -26, 848, 27
+10,71, 0,0, 2,, A
+10,72, 0,0, 2,, A
+
+
+;
+[Begin Action 6103]
+10,65, 0,0, 2,, A
+10,66, 0,0, 2,, A
+10,67, 0,0, 2,, A
+10,68, 0,0, 2,, A
+10,69, 0,0, 2,, A
+
+
+;0
+[Begin Action 6104]
+10,73, 0,0, 2,, A
+10,74, 0,0, 2,, A
+10,75, 0,0, 2,, A
+10,76, 0,0, 2,, A
+10,77, 0,0, 2,, A
+
+
+;0
+[Begin Action 6110]
+Clsn2Default: 1
+  Clsn2[0] = -16, -68, 17, 3
+0,57, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = 11, -36, 37, 5
+0,58, 0,0, 5
+0,58, 0,0, 5
+
+
+;0
+[Begin Action 6115]
+Clsn2Default: 1
+  Clsn2[0] = -18, -66, 18, -7
+0,59, 0,0, 5
+Clsn1: 1
+  Clsn1[0] = -1, -34, 54, 6
+0,60, 0,0, 5
+0,60, 0,0, 5
+
+
+;
+[Begin Action 6120]
+Clsn2Default: 1
+  Clsn2[0] = -18, -86, 18, 2
+0,42, 0,0, 20
+0,43, 0,0, 4
+0,44, 0,0, 4
+0,45, 0,0, 4
+0,42, 0,0, 4
+0,43, 0,0, 4
+0,44, 0,0, 4
+0,45, 0,0, 4
+0,42, 0,0, 4
+0,43, 0,0, 4
+0,44, 0,0, 4
+0,45, 0,0, 4
+0,42, 0,0, 4
+0,43, 0,0, 4
+0,44, 0,0, 4
+0,45, 0,0, 4
+0,42, 0,0, 4
+0,43, 0,0, 4
+0,44, 0,0, 4
+0,45, 0,0, 18
+
+
+;
+[Begin Action 6121]
+10,78, 0,0, 3,, A
+10,79, 0,0, 3,, A
+10,80, 0,0, 3,, A
+10,81, 0,0, 3,, A
+10,82, 0,0, 3,, A
+
+
+;
+[Begin Action 6122]
+Clsn1Default: 1
+  Clsn1[0] = -16, -16, 17, 17
+10,50, 0,0, 2,, A
+10,51, 0,0, 2,, A
+10,52, 0,0, 2,, A
+10,53, 0,0, 2,, A
+10,54, 0,0, 2,, A
+
+
+;
+[Begin Action 6123]
+10,55, 0,0, 2,, A
+10,56, 0,0, 2,, A
+10,57, 0,0, 2,, A
+10,58, 0,0, 2,, A
+10,59, 0,0, 2,, A
+
+
+;0
+[Begin Action 6130]
+Clsn2Default: 1
+  Clsn2[0] = -16, -73, 17, 2
+0,55, 0,0, 20
+0,55, 0,0, 60
+0,56, 0,0, 30
+
+
+;
+[Begin Action 6131]
+10,70, 0,0, 1,, A
+
+
+;
+[Begin Action 6132]
+Clsn1Default: 1
+  Clsn1[0] = 0, -30, 850, 29
+10,71, 0,0, 2,, A
+10,72, 0,0, 2,, A
+
+
+;
+[Begin Action 6133]
+10,65, 0,0, 2,, A
+10,66, 0,0, 2,, A
+10,67, 0,0, 2,, A
+10,68, 0,0, 2,, A
+10,69, 0,0, 2,, A
+
+
+;
+[Begin Action 6134]
+10,73, 0,0, 2,, A
+10,74, 0,0, 2,, A
+10,75, 0,0, 2,, A
+10,76, 0,0, 2,, A
+10,77, 0,0, 2,, A
+
+
+;
+[Begin Action 6140]
+Clsn2Default: 1
+  Clsn2[0] = -21, -72, 22, 3
+0,33, 0,0, 20
+0,33, 0,0, 50
+Clsn1: 1
+  Clsn1[0] = 14, -72, 41, -48
+0,34, 0,0, 5
+0,35, 0,0, 25
+
+
+;
+[Begin Action 6141]
+10,19, 0,0, 2,, A
+10,20, 0,0, 2,, A
+10,21, 0,0, 2,, A
+
+
+;0
+[Begin Action 6150]
+Clsn2: 1
+  Clsn2[0] = -23, -68, 23, 3
+0,55, 0,0, 20
+Clsn2: 1
+  Clsn2[0] = -22, -68, 24, 3
+0,55, 0,0, 60
+10,16, 0,0, 2,, A
+10,17, 0,0, 2,, A
+10,18, 0,0, 1,, A
+10,18, 0,0, 1,, A
+10,17, 0,0, 2,, A
+10,16, 0,0, 2,, A
+Clsn2: 1
+  Clsn2[0] = -22, -79, 22, 4
+0,56, 0,0, 65
+
+
+;
+[Begin Action 6151]
+10,70, 0,0, 1,, A
+
+
+;
+[Begin Action 6152]
+Clsn1Default: 1
+  Clsn1[0] = 0, -44, 849, 44
+10,71, 0,0, 2,, A
+10,72, 0,0, 2,, A
+
+
+;0
+[Begin Action 6160]
+Clsn2Default: 1
+  Clsn2[0] = -21, -68, 21, 3
+0,55, 0,0, 20
+0,55, 0,0, 80
+0,56, 0,0, 30
+
+
+;
+[Begin Action 6161]
+10,83, 0,0, 1,, A
+
+
+;0
+[Begin Action 6162]
+Clsn1Default: 1
+  Clsn1[0] = 0, -34, 848, 35
+10,84, 0,0, 2,, A
+10,85, 0,0, 2,, A
+
+
+;
+[Begin Action 6163]
+10,86, 0,0, 2,, A
+10,87, 0,0, 2,, A
+10,88, 0,0, 2,, A
+10,89, 0,0, 2,, A
+
+
+;
+[Begin Action 6170]
+10,90, 0,0, 2,, AS250D256
+10,91, 0,0, 2,, AS200D256
+10,92, 0,0, 2,, AS150D256
+10,93, 0,0, 2,, AS100D256
+10,94, 0,0, 2,, AS50D256
+
+

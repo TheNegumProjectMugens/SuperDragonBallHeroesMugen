@@ -1,0 +1,36 @@
+; Definition file for teen-gohan
+; Contains all the filenames needed for the character
+
+; Player information 
+ 
+[Info]
+name             ="Teen-Gohan-By cliff-A"
+displayname      ="Gohan kid Transform"
+versiondate      =10/20/13
+mugenversion     = 
+author           ="CLIFF-A"
+pal.defaults     =1,2,3,4
+
+
+[Files]
+cmd      =AI-Patch\AI-ToGo.cmd
+cns      =CNS-States\Cliff-Teen-Gohan.cns
+st       =CNS-States\Cliff-Teen-Gohan.cns
+stcommon =CNS-States\Common.cns
+sprite   =Sprites\Cliff-Teen-Gohan.sff
+anim     =Sprites\Cliff-Teen-Gohan.air
+sound    =Sounds\Cliff-Teen-Gohan.snd
+pal1=Palettes\Purple.act
+pal2=Palettes\Blue.act
+pal3=Palettes\Black.act
+pal4=Palettes\Orange.act
+st1=CNS-States\Fly.cns
+st2=CNS-States\Basics.cns
+st3=CNS-States\Specials-Hypers.cns
+st4=CNS-States\Helper-Support.cns
+st5=CNS-States\Movelist.cns
+
+
+[Arcade]
+intro.storyboard  =Intro/intro.def
+ending.storyboard =Ending/ending.def

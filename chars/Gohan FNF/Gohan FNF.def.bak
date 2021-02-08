@@ -1,0 +1,21 @@
+[Info]
+name ="Gohan FnF By H."
+displayname ="Gohan FNF"
+versiondate =
+mugenversion =1.0
+author ="HernànS"
+pal.defaults =1,
+
+[Files]
+cmd     =Gohan.cmd
+cns     =Gohan.cns
+st      =Gohan.cns
+stcommon =common1.cns
+sprite  =Gohan.sff
+anim    =Gohan.air
+sound   =Gohan.snd
+pal1=Gohan.act
+st1=others.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

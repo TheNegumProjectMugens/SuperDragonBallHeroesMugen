@@ -1,0 +1,32 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="bills"
+displayname ="Beerus "
+versiondate =28/11/2009
+mugenversion = 
+author ="manbatshark8,Yoyoo Collao"
+pal.defaults =1,2
+
+[Files]
+sprite =kbuu.sff
+anim =kbuu.air
+sound =kbuu.snd
+cmd =kbuu.cmd
+cns =kbuu.cns
+stcommon =common1.cns
+st =kbuu.cns
+pal1=bills1.act
+pal2=bills2.act
+st1=basic.cns
+st2=helpers.cns
+st3=specials.cns
+st4=supers.cns
+st5=AI.cns
+
+[Arcade]
+intro.storyboard =
+ending.storyboard =..\data\final.def

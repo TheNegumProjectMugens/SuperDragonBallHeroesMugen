@@ -1,0 +1,45 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="SSJ3 Gokou by gabe555"
+displayname ="Vegito SSJ3"
+versiondate =04,14,2002
+mugenversion =04,14,2002
+author ="gabe555"
+pal.defaults =1,2,3,4,5,6
+
+[Files]
+sprite =SSJ3Gokou.sff
+anim =SSJ3Gokou.air
+sound =SSJ3Gokou.snd
+cmd =SSJ3Gokou.cmd
+cns =SSJ3Gokou.cns
+stcommon =common1.cns
+st =SSJ3Gokou.cns
+pal1=Palettes\Vegetto.act
+pal2=Palettes\SSJ3Gokou.act
+pal3=Palettes\Zayko.act
+pal4=Palettes\MV.act
+pal5=Palettes\C16.act
+pal6=Palettes\Evil.act
+pal7=Palettes\Template.act
+pal8=Palettes\Evil.act
+pal9=Palettes\Ultimate Tenkaichi.act
+pal10=Palettes\C16.act
+pal11=Palettes\Zayko.act
+pal12=Palettes\Vegetto.act
+st1=System.cns
+st2=Specials.cns
+st3=EX.cns
+st4=Supers.cns
+;pal5 = Palettes\.act
+;pal6 = Palettes\.act
+;pal7 = Palettes\.act
+;pal8 = Palettes\.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard=..\data\final.def

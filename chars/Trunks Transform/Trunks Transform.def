@@ -1,0 +1,33 @@
+; Definition file for Piccolo
+; Contains all the filenames needed for the character
+
+; Player information 
+ 
+[Info]
+name             ="Future-Trunks-By cliff-A"
+displayname      ="Trunks Transform"
+versiondate      =12/08/12
+mugenversion     =
+author           ="CLIFF-A"
+pal.defaults     =1,2,3,4
+
+
+[Files]
+cmd      =AI-Patch/AI-NoGo.cmd
+cns      =CNS-States/Cliff-Trunks.cns
+st       =CNS-States/Cliff-Trunks.cns
+stcommon =CNS-States/Common.cns
+sprite   =Sprites/Cliff-Trunks.sff
+anim     =Sprites/Cliff-Trunks.air
+sound    =Sounds/Cliff-Trunks.snd
+pal1=Palettes/Purple.act
+pal2=Palettes/Orange.act
+pal3=Palettes/Red.act
+pal4=Palettes/white.act
+st1=CNS-States/Fly.cns
+st2=CNS-States/Movelist.cns
+st3=CNS-States/Basics.cns
+
+[Arcade]
+intro.storyboard  =
+ending.storyboard =..\data\final.def

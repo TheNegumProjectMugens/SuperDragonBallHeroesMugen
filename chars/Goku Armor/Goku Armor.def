@@ -1,0 +1,74 @@
+;==============
+goku armored
+;==============
+
+;------------------------------------------------------
+
+;Progging:	Neocide,HaVoC
+;Sprites:	edd extreme (Santa Rosa)
+;------------------------------------------------------
+
+
+;=============================================================
+
+;---------------------
+;Character Information
+;---------------------
+[Info]
+name ="Goku Armored"        
+displayname ="Goku Armor" 
+versiondate =01.18.2005   
+mugenversion =11,01,2001   
+author =" Neocide & Havoc "         
+pal.defaults =1,2,3
+
+
+;---------------------
+;Character Files
+;---------------------
+
+;=====================
+[Files]
+;=====================
+
+;---------------------
+;Command Set
+;---------------------
+cmd		=goku.cmd
+
+;---------------------
+;State Files
+;---------------------
+cns     	=goku.cns
+st      	=goku.cns
+
+stcommon 	=common.cns
+
+;---------------------
+;Sprite/Sound
+;---------------------
+sprite  	=goku.sff
+anim    	=goku.air
+sound   	=goku.snd
+pal1=goku.act
+pal2=goku.act
+st1=basic.cns
+st2=helpers.cns
+st3=specials.cns
+st4=gethits.cns
+st5=supers.cns
+
+;---------------------
+;Palletes
+
+;---------------------
+
+;Arcade mode
+[Arcade]
+intro.storyboard=
+ending.storyboard=..\data\final.def
+;intro.storyboard = intro.def
+;ending.storyboard = ending.def
+
+;----------------------------------
+

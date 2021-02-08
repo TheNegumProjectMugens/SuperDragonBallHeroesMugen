@@ -1,0 +1,35 @@
+﻿
+;EGC
+;E-mail: eg_casco@hotmail.com
+
+[Info]
+name ="Kid Goku GT by EGC"
+displayname ="Goku GT Kid"
+;versiondate =28/09/2011(comienzo aproximado)
+versiondate =26/04/2012
+mugenversion =1.0
+author ="EGC"
+pal.defaults =1,2,3,4,5,6
+localcoord = 320,240
+
+[Files]
+sprite =sprites.sff
+anim =animations.air
+sound=sounds.snd
+cmd =commands.cmd
+cns =EGC-Kid_Goku_GT.cns
+stcommon =common1.cns
+st =EGC-Kid_Goku_GT.cns
+pal1=palette-default.act
+pal2=pallete-darker.act
+pal3=pallete-red.act
+pal4=pallete-lighter.act
+pal5=pallete-green.act
+pal6=pallete-purple.act
+pal7=pallete-black.act
+st1=Helpers.cns
+st2=AI.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def

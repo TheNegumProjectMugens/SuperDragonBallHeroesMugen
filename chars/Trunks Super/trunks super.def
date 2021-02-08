@@ -1,0 +1,21 @@
+[Info]
+name ="Trunks Super"
+displayname ="Trunks Super"
+versiondate =2014.07.20
+mugenversion =1.0
+author ="Hernàn"
+pal.defaults =1
+
+[Files]
+cmd     =Trunks.cmd
+cns     =Trunks.cns
+st      =Trunks.cns
+stcommon =common1.cns
+sprite  =Trunks.sff
+anim    =Trunks.air
+sound   =Trunks.snd
+pal1=Trunks.act
+st1=others.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard=

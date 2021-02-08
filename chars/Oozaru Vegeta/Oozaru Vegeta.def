@@ -1,0 +1,20 @@
+[Info]
+name="OozaruVegeta"
+displayname="Oozaru Vegeta"
+versiondate=12/09/13
+mugenversion=
+author="Facudf Taringa"
+pal.defaults=1,2
+[Files]
+sprite=OozaruVegeta.sff
+sound=
+anim=OozaruVegeta.air
+cmd=OozaruVegeta.cmd
+cns=OozaruVegeta.cns
+st=OozaruVegeta.cns
+stcommon=common1.cns
+pal1=OozaruVegeta1.act
+pal2=OozaruVegeta.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=..\data\final.def

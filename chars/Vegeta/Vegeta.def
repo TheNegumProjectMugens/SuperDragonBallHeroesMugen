@@ -1,0 +1,27 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************     http://virtualltek.mgbr.net     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Vegeta By Jordanmaster"
+displayname ="Vegeta"
+versiondate =17.02.2012
+mugenversion = 
+author ="Gangsti Edit Jordanmaster"
+pal.defaults =1,2
+
+[Files]
+sprite =Vegeta Cell.sff
+anim =Vegeta Cell.air
+sound =Vegeta Cell.snd
+cmd =Vegeta Cell.cmd
+cns =Vegeta Cell.cns
+stcommon =common1.cns
+st =Vegeta Cell.cns
+pal1=Vegeta Cell.act
+pal2=Vegeta Cell2.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def

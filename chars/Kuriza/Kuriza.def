@@ -1,0 +1,28 @@
+; Player information
+[Info]
+name ="Freeza"
+displayname ="Kuriza"
+versiondate =7,4,2007
+mugenversion =06,14,2003
+author ="Hacker@Han_Hin"
+pal.defaults =1,2
+
+; Files for the player
+[Files]
+cmd     =Frieza.cmd
+cns     =Frieza.cns
+st      =Frieza.cns
+stcommon =common.cns
+sprite  =Frieza.sff
+anim    =Frieza.air
+sound   =Frieza.snd
+pal1=Kuriza.act
+pal2=Frieza.act
+st1=AI.cns
+
+
+; Arcade mode
+[Arcade]
+intro.storyboard =
+ending.storyboard =..\data\final.def
+

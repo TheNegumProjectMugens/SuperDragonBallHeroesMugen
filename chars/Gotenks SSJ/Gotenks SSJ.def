@@ -1,0 +1,36 @@
+
+[Info]
+name    ="Gotenks by Pextin"
+displayname ="Gotenks SSJ"
+versiondate =11,02,2007
+pal.defaults =1,2
+mugenversion=06,14,2003
+author="GOTEN88 & FRS GAMES>Franciynaldo"
+
+[Files]
+cmd      =Gotenks-SSJ.cmd
+cns      =Gotenks-SSJ.cns
+st       =Gotenks-SSJ.cns
+stcommon =common1.cns
+sprite   =Gotenks-SSJ.sff
+anim     =Gotenks-SSJ.air
+sound    =Gotenks-SSJ.snd
+pal1=Gotenks-SSJ.act
+pal2=Gotenks-SSJ1.act
+st1=Supers.cns
+st2=AI.cns
+st3=BBVB.cns
+st4=SDM.cns
+[Arcade]
+intro.storyboard=
+ending.storyboard= ..\data\final.def
+
+
+
+;...........................................................................................
+
+                                     
+;                              Autores: FRS GAMES >Franciynaldo
+                               Autores: Pextin & JediStarDust
+;[[[[[[[[[[[[[[[[[[[[[[[[[[[[E-mail: superkakarotto@hotmail.com]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+

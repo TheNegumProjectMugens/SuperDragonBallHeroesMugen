@@ -1,0 +1,9 @@
+Name: Majin Vegeta SS2
+Character Version: 1.0
+Mugen Version: 1.0
+
+Credits:
+
+Majin Vegeta sprite sheet from Neocide and MFT
+
+Some Sprite and Sound effects from Shinrashi, MGSSJ2, Alexei Roschak, Neocide, MFT, TOPS

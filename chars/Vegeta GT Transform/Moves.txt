@@ -1,0 +1,18 @@
+combo 1: a,a,a
+combo 2: b,b,b
+combo 3: x,x,x
+teleport punch: down,back,a
+teleport kick: down,back,b
+ki ball: c
+20 ki ball: down,forward,c
+5 punch combo: down,forward,a
+galick gun: down,back,forward,a
+big bang attack: down,back,forward,b (SSJ or above)
+final flash: down,back,forward,c (SSJ or above)
+10 punch combo: down,forward,x (SSJ2 or above)
+ki ball defense: holdy (SSJ2 or above)
+ki rings: down,forward,b (SSJ2 or above)
+final shine attack: down,back,forward,x (SSJ4)
+final flash 3,5k: down,back,forward,y (SSJ4)
+transform: z
+ki recover: start

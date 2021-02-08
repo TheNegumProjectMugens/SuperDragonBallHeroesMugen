@@ -1,0 +1,31 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Gohan"
+displayname ="Gohan kid"
+versiondate =09,03,2008
+mugenversion =1.0
+author ="LRojas"
+pal.defaults =1
+
+[Files]
+sprite =Gohan.sff
+anim =Gohan.air
+sound =Gohan.snd
+cmd =Gohan.cmd
+cns =Gohan.cns
+stcommon =common1.cns
+st =Basico.cns
+pal1=1.act
+pal2=2.act
+pal3=3.act
+st1=Helpers.cns
+st2=Moves.cns
+st3=Specials.cns
+
+[Arcade]
+intro.storyboard =intro.def
+ending.storyboard = ..\data\final.def

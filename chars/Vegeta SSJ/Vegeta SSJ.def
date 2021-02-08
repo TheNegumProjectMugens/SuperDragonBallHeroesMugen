@@ -1,0 +1,39 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************     http://virtualltek.mgbr.net     *******************;
+;***************************************************************************;
+
+[Info]
+name ="OS USSJ Vegeta"
+displayname ="Vegeta SSJ"
+versiondate =04,14,2002
+mugenversion =04,14,2002
+author ="Emiliano 01 & Team OS"
+pal.defaults =1,2
+
+[Files]
+sprite =VegetaUSSJ.sff
+anim =VegetaUSSJ.air
+sound =VegetaUSSJ.snd
+cmd =VegetaUSSJ.cmd
+cns =VegetaUSSJ.cns
+stcommon =common1.cns
+st =basico.cns
+pal1=Vegeta.act
+pal2=Gabe.ACT
+pal3=Gabe2.ACT
+pal4=Gabe3.ACT
+pal5=Ryudo.act
+pal6=Bejiita.act
+pal7=Super.act
+pal8=Freezer.act
+pal9=Vegetoide.act
+st1=Especiales.cns
+st2=ki.cns
+st3=supers.cns
+st4=boludeces.cns
+st5=P2States.cns
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = ..\data\final.def
