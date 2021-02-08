@@ -1,0 +1,499 @@
+------------------------------------------
+M.U.G.E.N ver 1.00 (2011.01.18) status log
+------------------------------------------
+Parsing command line...
+Command line: C:\Users\propietario\Downloads\juegos\Dragon Ball Heroes MUGEN\DragonBall Heroes.exe
+Parse command line OK
+Initializing...
+Allocating game variables
+Reading configuration file...OK
+Initializing timer...performance timer enabled...frequency 25000000...OK
+Initializing keyboard...configuring...OK
+Initializing input engine...OK
+Initializing sound...Using SDL audio driver: dsound
+Requesting mixer parameters (44100, 16, 2, 2048)...
+Opened mixer with parameters (44100, 16, 2, 2048)...
+OK
+Initializing BGM...BGMThreadInit returned 0
+OK
+Initializing graphics...gameCoord 640x480...render mode 2_0...trying 640x480x16 mode 0x0...success...OK
+Setting callbacks...OK
+Initializing font...OK
+Initializing game variables...OK
+Loading system fonts...OK
+Loading options...
+Initializing pads...failed
+Reinitializing input engine...OK
+Remapping keys...OK
+Reinitializing input engine...OK
+Options loaded OK
+Loading system...
+  Load system file system.def...OK
+  Load system spr...OK
+  Load system snd...OK
+  Load system fonts...OK
+  Load system anim...OK
+  Load [Title Info]...OK
+  Load [Option Info]...OK
+  Load [Select Info]...OK
+  Load [VS Screen]...OK
+  Load [Victory Screen]...OK
+  Load [Demo Mode]...OK
+  Load [Continue Screen]...OK
+  Load [Game Over Screen]...OK
+  Load [Win Screen]...OK
+  Load [Survival Results Screen]...OK
+  Load [Default Ending]...OK
+  Load [End Credits]...OK
+  Load TitleBG...VersusBG...VictoryBG...SelectBG...OptionBG...OK
+  Loading fight data
+    Opening fight data file ./data/rumblebar/fight.def...OK
+    Reading [Files]...OK
+    Loading fonts...OK
+    Load fight anim...OK
+    Reading [Lifebar]...[Turns Lifebar]...[Simul Lifebar]...[Powerbar]...
+    [Face]...[Simul Face]...[Turns Face]...
+    [Name]...[Simul Name]...[Turns Name]...
+    [Time]...[Combo]...[Round]...[WinIcon]...OK
+    Allocating explods...OK
+  Fight data loaded OK
+System loaded OK
+Initialize OK
+Set up graphics...timer...OK
+Playing storyboard Logo.def: scene
+attempting load and start...attempting load of data/logo.mp3...Couldn't open BGM file data/logo.mp3!
+error 1!
+Storyboard playback finished OK
+Finished playing storyboard Logo.def: scene
+Initializing character info...OK
+Initializing select screen...finding characters...
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+
+  Error reading character file: chars/-/-.def
+OK
+
+Entering main loop
+Entering character select.
+attempting load and start...attempting load of sound\dragon_ball_heroes.ogg...hooking mixer callback...
+success!
+starting BGM...
+Options Screen
+Return from Options Screen
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Black Goku/Black Goku.def...
+  Loading info...OK
+  Loading cmd command set Black.cmd...OK
+  Loading cns Black.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Black.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Black.sff...OK
+  Loading anim Black.air...OK
+  Loading snd Black.snd...OK
+  Loading pals...(1,1)OK
+  4911 expressions (1594 on trigger lines)
+Character Black Goku.def loaded OK
+Loading character chars/Vegetto Transform SSB/Vegetto Transform SSB.def...
+  Loading info...OK
+  Loading cmd command set Goku.cmd...OK
+  Loading cns Goku.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Goku.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Goku.sff...OK
+  Loading anim Goku.air...OK
+  Loading snd Goku.snd...attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+OK
+  Loading pals...(1,1)OK
+  5019 expressions (1606 on trigger lines)
+Character Vegetto Transform SSB.def loaded OK
+Initializing stage...
+  Loading BG...attempting load of sound/tree of might.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 86.01s
+Total frames: 4688 	Skipped frames: 1927
+Avg game rate: 54.51
+Avg frame rate: 32.10
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Zamasu/Zamasu.def...
+  Loading info...OK
+  Loading cmd command set trunks.cmd...OK
+  Loading cns trunks.cns...OK
+  Loading cmd state entry trunks.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff trunks.sff...attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+OK
+  Loading anim trunks.air...OK
+  Loading snd trunks.snd...OK
+  Loading pals...(1,1)OK
+  SFF v1.01 palette hack engaged.
+  13104 expressions (3255 on trigger lines)
+Character Zamasu.def loaded OK
+Initializing stage...
+  Loading BG...attempting load of sound/dbz_piccolo_vs_frieza.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 68.56s
+Total frames: 3804 	Skipped frames: 1516
+Avg game rate: 55.48
+Avg frame rate: 33.37
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Trunks Super/Trunks Super.def...
+  Loading info...OK
+  Loading cmd command set Trunks.cmd...OK
+  Loading cns Trunks.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Trunks.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Trunks.sff...OK
+  Loading anim Trunks.air...OK
+  Loading snd Trunks.snd...OK
+  Loading pals...(1,1)OK
+  3683 expressions (1251 on trigger lines)
+Character Trunks Super.def loaded OK
+attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...OK
+  Allocating helpers...OK
+Stage initialized OK
+attempting load of sound/dbz_trunks_powerup.mp3...success!
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 83.77s
+Total frames: 4576 	Skipped frames: 1888
+Avg game rate: 54.63
+Avg frame rate: 32.09
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Kyabe SSJ/Kyabe SSJ.def...
+  Loading info...OK
+  Loading cmd command set saiyajin.cmd...OK
+  Loading cns saiyajin.cns...OK
+  Loading cmd state entry saiyajin.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff saiyajin.sff...OK
+  Loading anim saiyajin.air...OK
+  Loading snd saiyajin.snd...OK
+  Loading pals...(1,1)(1,2)OK
+  SFF v1.01 palette hack engaged.
+  13288 expressions (3155 on trigger lines)
+Character Kyabe SSJ.def loaded OK
+Loading character chars/Vegeta SSJ/Vegeta SSJ.def...
+  Loading info...OK
+  Loading cmd command set VegetaUSSJ.cmd...OK
+  Loading cns VegetaUSSJ.cns...OK
+  Loading cns Especiales.cns...OK
+  Loading cns ki.cns...OK
+  Loading cns supers.cns...OK
+  Loading cns boludeces.cns...OK
+  Loading cns P2States.cns...OK
+  Loading cmd state entry VegetaUSSJ.cmd...attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff VegetaUSSJ.sff...OK
+  Loading anim VegetaUSSJ.air...OK
+  Loading snd VegetaUSSJ.snd...OK
+  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)OK
+  SFF v1.01 palette hack engaged.
+  13345 expressions (2864 on trigger lines)
+Character Vegeta SSJ.def loaded OK
+Initializing stage...
+  Loading BG...attempting load of sound/dbz_battle_of_gods_soundtracks01.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 51.20s
+Total frames: 2633 	Skipped frames: 1588
+Avg game rate: 51.43
+Avg frame rate: 20.41
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Goku Kaioken SSGSS/Goku Kaioken SSGSS.def...
+  Loading info...OK
+  Loading cmd command set Goku.cmd...OK
+  Loading cns Goku.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Goku.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Goku.sff...OK
+  Loading anim Goku.air...OK
+  Loading snd Goku.snd...OK
+  Loading pals...(1,1)OK
+  4911 expressions (1594 on trigger lines)
+Character Goku Kaioken SSGSS.def loaded OK
+Loading character chars/hit/hit.def...
+  Loading info...OK
+  Loading cmd command set hit.cmd...OK
+  Loading cns hit.cns...OK
+  Loading cns basic.cns...OK
+  Loading cns supers.cns...OK
+  Loading cns AI.cns...OK
+  Loading cmd state entry hit.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff hit.sff...OK
+  Loading anim hit.air...OK
+  Loading snd hit.snd...OK
+  Loading pals...(1,1)OK
+  SFF v1.01 palette hack engaged.
+  5672 expressions (1731 on trigger lines)
+Character hit.def loaded OK
+attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+Initializing stage...
+  Loading BG...attempting load of sound/dragon ball super original soundtrack.mp3...OK
+  Allocating helpers...OK
+Stage initialized OK
+success!
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 99.30s
+Total frames: 5250 	Skipped frames: 2344
+Avg game rate: 52.87
+Avg frame rate: 29.26
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Gohan FNF/Gohan FNF.def...
+  Loading info...OK
+  Loading cmd command set Gohan.cmd...OK
+  Loading cns Gohan.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Gohan.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Gohan.sff...OK
+  Loading anim Gohan.air...OK
+  Loading snd Gohan.snd...OK
+  Loading pals...(1,1)OK
+  3947 expressions (1337 on trigger lines)
+Character Gohan FNF.def loaded OK
+Loading character chars/Broli-eX.def/Broli-eX.def...
+  Loading info...OK
+  Loading cmd command set BroliCMD.cmd...OK
+  Loading cns BroliCNS.cns...OK
+  Loading cmd state entry BroliCMD.cmd...OK
+  Loading common states BroliCNS.cns...OK
+  Unloading command names...OK
+  Loading sff BroliSFF.sff...attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+OK
+  Loading anim BroliAIR.air...OK
+  Loading snd BroliSND.snd...OK
+  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)OK
+  SFF v1.01 palette hack engaged.
+  32666 expressions (5772 on trigger lines)
+Character Broli-eX.def loaded OK
+Initializing stage...
+  Loading BG...attempting load of sound/dbz_battle_of_gods_soundtracks01.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+prebuffering BGM...
+Start of game loop
+End of game loop
+Total time: 71.95s
+Total frames: 3729 	Skipped frames: 2089
+Avg game rate: 51.83
+Avg frame rate: 22.79
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Tarble/Tarble.def...
+  Loading info...OK
+  Loading cmd command set saiyajin.cmd...OK
+  Loading cns saiyajin.cns...OK
+  Loading cmd state entry saiyajin.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff saiyajin.sff...OK
+  Loading anim saiyajin.air...OK
+  Loading snd saiyajin.snd...OK
+  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)OK
+  SFF v1.01 palette hack engaged.
+  12535 expressions (2780 on trigger lines)
+Character Tarble.def loaded OK
+Loading character chars/Vegeta Saiyan/Vegeta Saiyan.def...
+  Loading info...OK
+  Loading cmd command set Vegeta_saiyan.cmd...OK
+  Loading cns Vegeta_saiyan.cns...OK
+  Loading cmd state entry Vegeta_saiyan.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Vegeta_saiyan.sff...OK
+  Loading anim Vegeta_saiyan.air...OK
+  Loading snd Vegeta_saiyan.snd...attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+OK
+  Loading pals...(1,1)(1,2)OK
+  11977 expressions (2549 on trigger lines)
+Character Vegeta Saiyan.def loaded OK
+Initializing stage...
+  Loading BG...attempting load of sound/dbz_trunks_powerup.mp3...success!
+OK
+  Allocating helpers...OK
+Stage initialized OK
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 62.15s
+Total frames: 3378 	Skipped frames: 1391
+Avg game rate: 54.35
+Avg frame rate: 31.97
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Loading character chars/Bardock SSJ4/Bardock SSJ4.def...
+  Loading info...OK
+  Loading cmd command set Goku.cmd...OK
+  Loading cns Goku.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Goku.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Goku.sff...OK
+  Loading anim Goku.air...OK
+  Loading snd Goku.snd...OK
+  Loading pals...(1,1)OK
+  3146 expressions (1154 on trigger lines)
+Character Bardock SSJ4.def loaded OK
+Loading character chars/Gohan SSJ4 DBH/Gohan SSJ4 DBH.def...
+  Loading info...OK
+  Loading cmd command set Goku.cmd...OK
+  Loading cns Goku.cns...OK
+  Loading cns others.cns...OK
+  Loading cmd state entry Goku.cmd...OK
+  Loading common states common1.cns...OK
+  Unloading command names...OK
+  Loading sff Goku.sff...OK
+  Loading anim Goku.air...OK
+  Loading snd Goku.snd...attempting load and start...attempting load of sound\saga continues.mp3...success!
+starting BGM...
+OK
+  Loading pals...(1,1)OK
+  3146 expressions (1154 on trigger lines)
+Character Gohan SSJ4 DBH.def loaded OK
+Initializing stage...
+  Loading BG...attempting load of sound/trunks and goten spar.mp3...OK
+  Allocating helpers...OK
+Stage initialized OK
+success!
+Start of game loop
+prebuffering BGM...
+End of game loop
+Total time: 53.54s
+Total frames: 2981 	Skipped frames: 1171
+Avg game rate: 55.68
+Avg frame rate: 33.81
+
+attempting load and start...attempting load of sound\dragon_ball_kai_grand_adventure.ogg...success!
+starting BGM...
+Entering character select.
+attempting load and start...attempting load of sound\dragon_ball_heroes.ogg...success!
+starting BGM...
+Options Screen
+Return from Options Screen
+Returned from main loop
+Deinitializing...
+Frames      : 31039
+Time elapsed: 853.410 sec
+ticks: 85341, tps: 100, start 1047, end 86388
+
+Clearing player cache...OK
+Freeing character info...OK
+Freeing select screen...OK
+Freeing fight data...OK
+Freeing system data...OK
+Freeing game variables...OK
+Deinitializing input...pad...keyboard...OK
+Removing callbacks...OK
+Deintializing timer...OK
+Deinitializing graphics...OK
+Deinitializing BGM...Cleaning up mixer callback...unhooking mixer callback...
+
+Mixer callback was entered 17680 times
+Mixer callback timing stats (last 17680 calls):
+	204.000000 median, 224.612557 avg, 273.310440 sample std. dev.
+Top 10 slowest times:	13263 (1), 13163 (1), 12937 (1), 12021 (1), 11941 (1), 11158 (1), 10112 (1), 7776 (1), 6397 (1), 4333 (1)
+Top 10 fastest times:	61 (1), 63 (4), 64 (4), 65 (2), 66 (12), 67 (13), 68 (22), 69 (25), 70 (39), 71 (19)
+OK
+Deinitializing sound...OK
+Successful program termination.
+
+Log file successfully closed.

@@ -1,0 +1,21 @@
+
+[Info]
+name = "Dragon Ball Heroes M.U.G.E.N Logo"
+author = "RistaR87_Drey12"
+localcoord = 640,480
+
+[SceneDef]
+spr = Logo.sff
+[Scene 0]
+fadein.time = 50
+fadeout.time = 20
+clearcolor = 0,0,0
+layerall.pos = 0,0
+layer0.anim = 0
+bgm =Logo.mp3
+bgm.loop = 0 
+end.time = 250
+[Begin Action 0]
+0,1, 0,0, 1000
+
+
